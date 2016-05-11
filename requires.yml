@@ -1,5 +1,0 @@
-javascripts:
-  files:
-    - beatles.js
-  specs:
-    - spec/beatles_spec.js
