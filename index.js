@@ -19,8 +19,9 @@ function johnLennonFacts(facts){
     }
     return arrayB
   }
-var i = 0;
+
 function iLoveTheBeatles(){
+    var i = 0;
     do{
       var arrayC=[];
       console.log(i);
