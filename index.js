@@ -20,13 +20,15 @@ function johnLennonFacts(facts){
     return arrayB
   }
 
-function iLoveTheBeatles(){
+
+var number = 0;
+function iLoveTheBeatles(number){
     var i = 0;
     do{
-      var arrayC=[];
+      var arrayC= [i];
       arrayC.push('I love the Beatles!')
       i++
       }
-    while (i < 15)
+    while (number < 15)
     return arrayC
   }
