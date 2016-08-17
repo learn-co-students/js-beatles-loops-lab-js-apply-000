@@ -3,8 +3,6 @@ function theBeatlesPlay(musicians, instruments){            //function called th
     for (var i=0; i<musicians.length; i++){                 // for loop to loop over array of musicians
     for (var i=0; i<instruments.length; i++)           //for loop to loop over array of instruments
         array.push(musicians[i] + " plays " + instruments[i])                                        // create string using index at i for musicians and index at j for instruments
-
-
   }
   return array
 }
@@ -18,7 +16,7 @@ function johnLennonFacts(facts){
     }
     return arrayB
   }
-var number = [];
+var number = (17);
   function iLoveTheBeatles(){
       var i = 0;
       do{
