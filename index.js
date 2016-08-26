@@ -1,17 +1,18 @@
 var theBeatlesPlay = function(arrayMusic,arrayInstrument){
 	var myString = [];
 	for(i=0,myString=null;i<arrayMusic.length;i++){
-		myString = arrayMusic + ' plays ' +arrayInstrument;
+		myString.push(`${arrayMusic} plays ${arrayInstrument}`);
 		return myString;
 	}
 }
 
 var johnLennonFacts = function(anArray){
-	i=0;
-	while(i<anArray.length){
-		return anArray[i] + "!!!";
-		i+=1;
+	i=1;
+	while(i<(anArray.length)*2){
+		anArray.splice(i,0,"!!!");
+		i+=2;
 	}
+	return anArray;
 }
 
 var iLoveTheBeatles = function(n){
