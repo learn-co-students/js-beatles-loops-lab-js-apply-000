@@ -1,9 +1,9 @@
 var theBeatlesPlay = function(arrayMusic,arrayInstrument){
 	var myString = [];
-	for(i=0,myString=null;i<arrayMusic.length;i++){
-		myString.push(`${arrayMusic} plays ${arrayInstrument}`);
-		return myString;
+	for(i=0;i<arrayMusic.length;i++){
+		myString.push(`${arrayMusic[i]} plays ${arrayInstrument[i]}`);
 	}
+	return myString;
 }
 
 var johnLennonFacts = function(anArray){
