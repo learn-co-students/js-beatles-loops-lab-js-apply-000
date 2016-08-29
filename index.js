@@ -11,9 +11,9 @@ function theBeatlesPlay (musicians, instruments) {
 
 // Beatles Loops johnLennonFacts
 // returns an array of strings with exclamation points:                                                      
-var i = 0;
-var text = [];
 function johnLennonFacts(anything) {
+  var i = 0;
+  var text = [];
   while (anything[i]) {
     text.push(anything[i] + "!!!");
     i++;
