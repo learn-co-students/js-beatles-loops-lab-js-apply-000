@@ -34,13 +34,14 @@ const facts = [
 ]
 
 function johnLennonFacts(facts) {
-  i = 0
+  var i = 0
+  var lennonFacts = []
   while (i < facts.length) {
-    console.log(facts[i] + "!!!")
+    lennonFacts.push(facts[i] + "!!!")
     i++
   }
+return lennonFacts;
 }
-johnLennonFacts(facts)
 
 
 //
@@ -52,12 +53,9 @@ johnLennonFacts(facts)
 function iLoveTheBeatles(number) {
   var whoDoYouLove = []
   do {
-  console.log("I love the Beatles!");
+  whoDoYouLove.push("I love the Beatles!");
     number ++;
   } while (number < 15);
-  whoDoYouLove.push("I love the Beatles!");
-  return whoDoYouLove
+  console.log("I love the Beatles!");
+  return whoDoYouLove;
 }
-
-console.log(iLoveTheBeatles(7));
-console.log(iLoveTheBeatles(17));
