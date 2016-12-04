@@ -13,8 +13,8 @@ function johnLennonFacts(facts){
   var i=0;
   while (i < facts.length) {
   myArray.push(facts[i] + "!!!")
-  return myArray
   i++}
+  return myArray
 };
 
 function iLoveTheBeatles(number){
