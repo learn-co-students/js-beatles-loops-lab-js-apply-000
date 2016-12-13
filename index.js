@@ -8,16 +8,24 @@ function theBeatlesPlay (mus, inst) {
 
 function johnLennonFacts (facts) {
   var emptyArr = [];
-  for (var i = 0; i < facts.length; i++) {
+  var i = 0
+  while (i < facts.length) {
     emptyArr.push(facts[i] + "!!!")
+    i++
   }
   return emptyArr;
 }
 
 function iLoveTheBeatles(num) {
   var emptyArr = [];
-  do {
-   emptyArr.push("I love the Beatles!")
-  } while (num < 15; num++);
+  var i = 0
+  if (num < 15) {
+    do {
+      emptyArr.push("I love the Beatles!")
+      i++;
+    } while (i <= num)
+  } else {
+    return ["I love the Beatles!"]
+  }
   return emptyArr;
 }
