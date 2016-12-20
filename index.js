@@ -1,4 +1,4 @@
-use strict;
+'use strict';
 
 function theBeatlesPlay(musicians,instruments) {
   var output = [];
