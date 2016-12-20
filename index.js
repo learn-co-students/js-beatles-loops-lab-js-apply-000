@@ -1,3 +1,5 @@
+use strict;
+
 function theBeatlesPlay(musicians,instruments) {
   var output = [];
   for (var i = 0; i<4; i++) {
