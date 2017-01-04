@@ -42,14 +42,19 @@ function iLoveTheBeatles(lovenumber) {
 //       lovenumber--;
 // } while (lovenumber < 15)
 
-if (lovenumber <15) {
-for (incrementor = 0; incrementor <= lovenumber; incrementor++) {
+// if (lovenumber <15) {
+// for (incrementor = 0; incrementor <= lovenumber; incrementor++) {
+//
+//   output[incrementor] = "I love the Beatles!"
+//
+// }
+// }
+// else {output[0] = "I love the Beatles!"}
 
-  output[incrementor] = "I love the Beatles!"
-
-}
-}
-else {output[0] = "I love the Beatles!"}
+do {
+    output.push('I love the Beatles!')
+    lovenumber++
+  } while (lovenumber < 15)
 
 return output;
 }
