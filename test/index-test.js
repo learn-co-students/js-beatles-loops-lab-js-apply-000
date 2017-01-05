@@ -1,10 +1,27 @@
-describe('Beatles Loops', function() {
-  it("returns an array of strings containing what instruments each instrument plays", function() {
-    const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
-    const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+function theBeatlesPlay(){
+var musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+var intruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+var newStr = [];
 
-    expect(theBeatlesPlay(musicians, instruments)).toEqual(["John Lennon plays Guitar", "Paul McCartney plays Bass Guitar", "George Harrison plays Lead Guitar", "Ringo Starr plays Drums"]);
-  });
+for(i=0;i<musicians.length;i++){
+newStr= [musicians[0]+" plays "+intruments[0],musicians[1]+" plays "+intruments[1],musicians[2]+" plays "+intruments[2],musicians[3]+" plays "+intruments[3]];
+
+
+}
+return newStr
+}
+theBeatlesPlay();
+//------------------------------------------------------------------------------
+function johnLennonFacts(arr){
+ var newArr=[];
+ while(newArr<arr.length){
+   newArr++
+
+ }
+
+}
+johnLennonFacts(["He was the last Beatle to learn to drive","He was never a vegetarian","He was a choir boy and boy scout","He hated the sound of his own voice"]);
+
 
   describe('johnLennonFacts', function(){
     it("returns an array of strings with exclamation points", function() {
