@@ -19,7 +19,7 @@ function comb(musician, instrument) {
 function theBeatlesPlay(musicians, instruments) {
     //calls comb() for each musician/instrument and returns a populated array
     var answ = [];
-    for (i = 0; i < m.length; i++) {
+    for (var i = 0; i < musicians.length; i++) {
         answ.push(comb(musicians[i], instruments[i]));
     }
     //console.log(answ);
