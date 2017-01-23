@@ -1,14 +1,23 @@
-function theBeatlesPlay(member, instrument) {
-  var whichBeatlePlayed = [];
-  for(var i = 0; i < member.length; i++) {
-    whichBeatlePlayed.push(`${member[i]} plays ${instrument[i]}`);
+var theBeatlesPlay = (member, instrument) => {
+  var whichBeatlePlays = [];
+  for (var i = 0; i < member.length; i++) {
+    whichBeatlePlays.push(`${member[i]} plays ${instrument[i]}`);
   }
-  return whichBeatlePlayed;
+  return whichBeatlePlays;
 }
 
-function johnLennonFacts(theFacts) {
+// function theBeatlesPlay(member, instrument) {
+//   var whichBeatlePlayed = [];
+//   for(var i = 0; i < member.length; i++) {
+//     whichBeatlePlayed.push(`${member[i]} plays ${instrument[i]}`);
+//   }
+//   return whichBeatlePlayed;
+// }
+
+var johnLennonFacts = (theFacts) => {
   var lennonFacts = [];
   var i = 0;
+
   while(i < theFacts.length) {
     lennonFacts.push(`${theFacts[i]}!!!`);
     i++;
@@ -16,11 +25,30 @@ function johnLennonFacts(theFacts) {
   return lennonFacts;
 }
 
-function iLoveTheBeatles(num) {
+// function johnLennonFacts(theFacts) {
+//   var lennonFacts = [];
+//   var i = 0;
+//   while(i < theFacts.length) {
+//     lennonFacts.push(`${theFacts[i]}!!!`);
+//     i++;
+//   }
+//   return lennonFacts;
+// }
+
+var iLoveTheBeatles = (number) => {
   var howMuchDoYouLoveThem = [];
-  do{
+  do {
     howMuchDoYouLoveThem.push("I love the Beatles!");
-    num++;
-  } while(num < 15)
+    number++;
+  } while(number < 15)
   return howMuchDoYouLoveThem;
 }
+
+// function iLoveTheBeatles(num) {
+//   var howMuchDoYouLoveThem = [];
+//   do{
+//     howMuchDoYouLoveThem.push("I love the Beatles!");
+//     num++;
+//   } while(num < 15)
+//   return howMuchDoYouLoveThem;
+// }
