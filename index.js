@@ -21,11 +21,14 @@ function iLoveTheBeatles (number){
   if (number > 15) {
     resultsArray.push("I love the Beatles!");
   }
+
   else 
   do {
     resultsArray.push("I love the Beatles!");
     i++;
+
   }  while (i<=number);
+
 return resultsArray;  
   }
 
