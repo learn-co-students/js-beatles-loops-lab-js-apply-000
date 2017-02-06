@@ -19,12 +19,10 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(num){
   var sentence = "I love the Beatles!";
-  if(num >= 15) return sentence;
   var output = [];
-  var i = 0;
   do{
     output.push(sentence);
-    ++i;
-  }while(i <= num);
+    ++num;
+  }while(num < 15);
   return output;
 }
