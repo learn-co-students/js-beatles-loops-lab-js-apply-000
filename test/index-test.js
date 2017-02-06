@@ -18,7 +18,7 @@ describe('Beatles Loops', function() {
       expect(johnLennonFacts([
         "foo",
         "bar",
-      ])).toEqual(["foo!!!", "bar!!!"])
+      ])).toEqual(["He was the last Beatle to learn to drive!!!", "He was never a vegetarian!!!", "He was a choir boy and boy scout!!!", "He hated the sound of his own voice!!!"])
     });
   });
 
