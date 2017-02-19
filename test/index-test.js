@@ -25,6 +25,7 @@ describe('Beatles Loops', function() {
   describe('iLoveTheBeatles', function() {
     it("returns an array of 'I love the Beatles!' 8 times when passed the parameter 7 ", function() {
       expect(iLoveTheBeatles(7)).toEqual(["I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!", "I love the Beatles!"]);
+      expect(iLoveTheBeatles(7).length).toEqual(8)
     });
 
     it("returns an array of 'I love the Beatles!' once when passed the parameter 17", function() {
