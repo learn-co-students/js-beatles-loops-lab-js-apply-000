@@ -3,6 +3,14 @@ describe('Beatles Loops', function() {
     const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
     const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
+    // My for loop function
+    function theBeatlesPlay(people, woodBoxes) {
+      var whatTheyPlay = [];
+      for (var i = 0; i < 4; i++) {
+        whatTheyPlay[i] = people[i] + " plays " + woodBoxes[i];
+      }
+      return whatTheyPlay
+    };
     expect(theBeatlesPlay(musicians, instruments)).toEqual(["John Lennon plays Guitar", "Paul McCartney plays Bass Guitar", "George Harrison plays Lead Guitar", "Ringo Starr plays Drums"]);
   });
 
@@ -14,6 +22,17 @@ describe('Beatles Loops', function() {
         "He was a choir boy and boy scout",
         "He hated the sound of his own voice"
       ])).toEqual(["He was the last Beatle to learn to drive!!!", "He was never a vegetarian!!!", "He was a choir boy and boy scout!!!", "He hated the sound of his own voice!!!"]);
+
+      // My do-while loop function
+      function johnLennonFacts(arrayOfFacts) {
+        var numberOfFactsInArray = arrayOfFacts.length;
+        var i = numberOfFactsInArray - 1;
+        while (i >= 0) {
+          arrayOfFacts[i] += "!!!";
+          i--;
+        }
+        return arrayOfFacts
+      }
 
       expect(johnLennonFacts([
         "foo",
