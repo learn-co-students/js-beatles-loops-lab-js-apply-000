@@ -49,9 +49,10 @@ describe('Beatles Loops', function() {
     // My do-while loop function
     function iLoveTheBeatles(numberProvided) {
     var loveArray = [];
+    var i = numberProvided - 1;
     do {
       loveArray[i] += "I love the Beatles!"
-      i--
+      i--;
     }
     while(i < 15);
     return loveArray
