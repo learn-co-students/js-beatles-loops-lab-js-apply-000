@@ -1,5 +1,6 @@
 function theBeatlesPlay(musicians, instruments){
   var newMusicians=[];
+  
   for(var x=0;x<musicians.length;x++){
     newMusicians.push(musicians[x] + " plays " + instruments[x]);
   };
