@@ -1,20 +1,26 @@
-var musicians = ['John Lennon', 'Paul McCartney', 'George Harrison', 'Ringo Star']
-var instruments = ['Guitar', 'Bass Guitar', 'Lead Guitar', 'Drums']
-
 function theBeatlesPlay(musicians, instruments) {
-
-var newArray = [];
-for (var i = 0 ; i < 4 ; i++); {
-  var beatlesString = musicians[i] + ' plays ' + instruments[i];
-}
-newArray.push(beatlesString);
-return newArray
+  var newArray = [];
+  for (var i = 0; i < musicians.length; i++) {
+    newArray.push(musicians[i] + ' plays ' + instruments[i]);
+  }
+  return newArray
 }
 
 function johnLennonFacts(facts) {
-
+  var newArray = [];
+  var i = 0;
+  while (i < facts.length) {
+   newArray.push(facts[i] + '!!!')
+   i++
+  }
+  return newArray
 }
 
-function iLoveTheBeatles(array) {
-
+function iLoveTheBeatles(n) {
+  var newArray = [];
+  do {
+    newArray.push('I love the Beatles!')
+    n++
+  } while (n < 15);
+  return newArray
 }
