@@ -1,1 +1,1 @@
-var sentences = [musicians.length];
+var sentences[];
