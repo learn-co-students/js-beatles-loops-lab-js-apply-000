@@ -19,13 +19,13 @@ var facts = ["He was the last Beatle to learn to drive", "He was never a vegetar
 "He hated the sound of his own voice"];
 
 function johnLennonFacts(facts) {
-  var result= [];
+  var newFacts= [];
   var i = 0;
   while(i < facts.length) {
-    result.push(facts[i] + '!!!')
+    newFacts.push(`${facts[i]}!!!`);
     i++;
   }
-  return result; 
+  return newFacts;
 }
 
 function iLoveTheBeatles (num){
