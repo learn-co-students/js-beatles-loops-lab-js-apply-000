@@ -1,4 +1,4 @@
-function theBeatlePlay(musicians, instruments){
+function theBeatlesPlay(musicians, instruments){
   var lng = musicians.length
   var result = new Array();
   	for(var i = 0; i < musicians.length; i++){
