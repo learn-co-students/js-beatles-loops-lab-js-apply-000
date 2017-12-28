@@ -29,4 +29,10 @@ function iLoveTheBeatles(number) {
   while (number < 15);
 
   return array
-}
+=======
+  for(let i = 0, i < musicians.length; i++){
+    theBeatles = theBeatles + `musicians[i] ${play} instruments[i]`
+
+  }
+  return theBeatles
+
