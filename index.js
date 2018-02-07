@@ -41,11 +41,12 @@ function iLoveTheBeatles(number) {
       beatleMania.push("I love the Beatles!");
 
       return beatleMania;
-    } do {
+    }
+
+  do {
     beatleMania.push("I love the Beatles!");
     userNumber++;
   } while (beatleMania < 15);
-
 
   return beatleMania;
 }
