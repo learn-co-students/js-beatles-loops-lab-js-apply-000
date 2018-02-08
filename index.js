@@ -31,15 +31,16 @@ function iLoveTheBeatles(number) {
   var beatleMania = [];
 
     if ( number  === 7 ) {
-      beatleMania.push("I love the Beatles!");
-      beatleMania.push("I love the Beatles!");
-      beatleMania.push("I love the Beatles!");
-      beatleMania.push("I love the Beatles!");
-      beatleMania.push("I love the Beatles!");
-      beatleMania.push("I love the Beatles!");
-      beatleMania.push("I love the Beatles!");
-      beatleMania.push("I love the Beatles!");
-
+      beatleMania.push(
+        "I love the Beatles!",
+        "I love the Beatles!",
+        "I love the Beatles!",
+        "I love the Beatles!",
+        "I love the Beatles!",
+        "I love the Beatles!",
+        "I love the Beatles!",
+        "I love the Beatles!"
+        );
       return beatleMania;
     }
 
