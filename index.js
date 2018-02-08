@@ -1,6 +1,6 @@
 function theBeatlesPlay(musicians, instruments) {
-  var moreMusicians = [musicians];
-  var moreInstruments = [instruments];
+  var moreMusicians = musicians;
+  var moreInstruments = instruments;
   var empty = [];
 
   for (var i = 0; i < 4; i++) {
