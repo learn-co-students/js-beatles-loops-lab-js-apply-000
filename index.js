@@ -16,7 +16,7 @@ function theBeatlesPlay(musicians, instruments) {
 function johnLennonFacts(facts) {
 
   var oldFacts = facts;
-  const newFacts = [];
+  var newFacts = [];
   var i = 0;
 
   while (newFacts.length < oldFacts.length) {
@@ -41,6 +41,7 @@ function iLoveTheBeatles(number) {
         "I love the Beatles!",
         "I love the Beatles!"
         );
+
       return beatleMania;
     }
 
