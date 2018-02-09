@@ -1,32 +1,40 @@
+const musicians = ["John", "Paul", "George", "Ringo"];
+
+const instruments = ["guitar", "guitar", "bass", "drums"];
+
 function theBeatlesPlay(musicians, instruments) {
-  const arr = []
-
-  for (let i = 0, l = musicians.length; i < l; i++) {
-    arr.push(`${musicians[i]} plays ${instruments[i]}`)
-  }
-
-  return arr
+  var array = [];
+  for (let i = 0; i < 15; i++) {
+      array.push(`${musicians[0]} plays ${instruments[0]}`);
+    }
+  return array;
 }
+
+theBeatlesPlay(musicians, instruments);
+
+/*const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+];
 
 function johnLennonFacts(facts) {
-  const shoutedFacts = []
-
-  let i = 0
-  while (i < facts.length) {
-    shoutedFacts.push(`${facts[i]}!!!`)
-    i++
+  while () {
+    facts[n] + "!!!";
   }
+  return facts;  
+}*/
 
-  return shoutedFacts
-}
-
-function iLoveTheBeatles(n) {
-  const arr = []
-
+/*function iLoveTheBeatles(x) {
+  var array = [];
   do {
-    arr.push('I love the Beatles!')
-    n++
-  } while (n < 15)
-
-  return arr
+    x = array.push("I love the Beatles!");
+    x++;
+  } while (x < 15); {
+    
+  }
+  return array;
 }
+
+iLoveTheBeatles(12);*/
