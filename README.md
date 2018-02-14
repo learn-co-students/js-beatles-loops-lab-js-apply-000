@@ -13,7 +13,16 @@ Make sure you run the tests with `learn`.
 
 + Create a function `johnLennonFacts`. This function will accept one argument, an array of facts about John Lennon (note that it might not be exactly the following facts):
 
+
 ```js
+
+function theBeatlesPlay(musicians,intruments) {
+  var arr = [];
+  for (var i = 0; i < musicians.length; i++) {
+    arr.push(`${musicians[i]} plays ${instruments[i]}`);
+  }
+  return arr;
+}
 const facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
