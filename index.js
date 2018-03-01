@@ -27,10 +27,11 @@ function iLoveTheBeatles( num ){
   if (num>14){
     return ["I love the Beatles!"];
   }
-  while (num>=0){
+  do{
     result.push("I love the Beatles!")
     num--;
   }
+  while(num>=0);
   return result;
 }
 
