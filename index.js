@@ -17,7 +17,7 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(number) {
   let array = [] // create empty array
-  do { //say I love the Beatles! while number parameter is less than 15
+  do { //say aka push I love the Beatles! while number parameter is less than 15
     array.push("I love the Beatles!")
     number++ //increment number
   } while (number < 15)
