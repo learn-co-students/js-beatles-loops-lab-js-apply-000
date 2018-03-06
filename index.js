@@ -1,3 +1,4 @@
+
 function theBeatlesPlay(musicians, instruments) {
   var bandIfno = [];
 
@@ -25,6 +26,7 @@ function iLoveTheBeatles(num) {
 
   do {
     array.push("I love the Beatles!");
+    num++;
   } while (num < 15);
 
   return array;
