@@ -1,5 +1,5 @@
-const musicians = ["John", "Paul", "George", "Ringo"];
-const instruments = ["guitar", "guitar", "bass", "drums"];
+// const musicians = ["John", "Paul", "George", "Ringo"];
+// const instruments = ["guitar", "guitar", "bass", "drums"];
 
 function theBeatlesPlay(musicians, instruments) {
   const arr = [];
@@ -11,7 +11,7 @@ function theBeatlesPlay(musicians, instruments) {
   return arr;
 }
 
-/////////WIP iLoveTheBeatles////////////////
+/////////solved iLoveTheBeatles////////////////
 
 
 function iLoveTheBeatles (num) {
