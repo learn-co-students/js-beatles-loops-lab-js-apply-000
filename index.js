@@ -32,9 +32,13 @@ function johnLennonFacts(list) {
 
 function iLoveTheBeatles(n) {
   var list = []
-  for (var i = 0; i < n+1; i++) {
+  if (n > 10) {
+    return "I love the Beatles!"
+  } else {
+    for (var i = 0; i < n+1; i++) {
     list.push("I love the Beatles!")
+    }
   }
   return list
 }
-iLoveTheBeatles(7)
+iLoveTheBeatles(17)
