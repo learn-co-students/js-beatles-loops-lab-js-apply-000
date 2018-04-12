@@ -39,6 +39,6 @@ function iLoveTheBeatles(count){
   while(count<15);
   return newArray;
 }
-
+iLoveTheBeatles(8);
 
 
