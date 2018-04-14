@@ -29,18 +29,29 @@ johnLennonFacts()
 
 
 
-function iLoveTheBeatles (num) {
-  var result="";
+
+
+function iLoveTheBeatles (number) {
+
  var body = [];
- var i = 0;
-var b = ['I love the Beatles!']
-while (i < num+1) {
-    result += b ;
- 
-     i++;
+ do {
+   body.push('I love the Beatles!')
+   
+     number++;
  }
-   body.push(result)
+while (number < 15) {
+ 
    return body
  }
+ }
 johnLennonFacts(7)
+
+
+
+
+
+
+
+
+
 
