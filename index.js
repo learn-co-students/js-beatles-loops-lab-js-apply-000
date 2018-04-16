@@ -1,4 +1,4 @@
-//theBeatlesPlay function create an empty array. Loop over array of musicians. Create strings in the loop for each iteration and add to new array.
+//theBeatlesPlay function create an empty array. For loop over array of musicians. Create strings in the loop for each iteration and add to new array.
 //Parameters: array of musicians, array of instruments
 //returns the new array with the new strings formed in the for loop
 
@@ -16,7 +16,7 @@ function theBeatlesPlay (musicians, instruments) {
 
 
 //johnLennonFacts function adds "!!!" to the end of each fact passed in.
-//Parameters: array of facts about John johnLennonFacts
+//Parameters: array of facts about John Lennon
 //Return: array of strings with exclamations points
 
 function johnLennonFacts (facts) {
@@ -48,6 +48,7 @@ function iLoveTheBeatles (num) {
   
   do {  
     loveOutput.push("I love the Beatles!");
+    //increment the num passed in as a parameter
     num++;
   } while (num < 15);
   
