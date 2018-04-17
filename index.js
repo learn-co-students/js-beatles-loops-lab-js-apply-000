@@ -1,3 +1,4 @@
+
 const theBeatlesPlay = (musicians, instruments) => {
   let array = [];
   for (let i=0; i < musicians.length; i++){
@@ -17,16 +18,16 @@ const johnLennonFacts = (facts) => {
   
   return exclFacts
 }
-
 const iLoveTheBeatles = (number) => {
   let array = []
-  let i = 0
   do{
     array.push('I love the Beatles!')
+    number++
   }
-  while(i< number)
+  while(number<15)
   
   return array
 }
 
-iLoveTheBeatles(4)
+
+iLoveTheBeatles(7) 
