@@ -21,15 +21,13 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(num) {
   var result = [];
+  var i = 0;
 
-  if(num == 17) { 
-    result[0] = "I love the Beatles!"
-    return result;
-  }
-
-  for(var i=0; i < num+1; i++)  {
-    result[i] = "I love the Beatles!"
-  }
+  do  {
+    result[i] = "I love the Beatles!";
+    num++;
+    i++;
+  } while(num < 15)
 
   return result;
 }
