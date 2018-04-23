@@ -33,12 +33,11 @@ function iLoveTheBeatles(n) {
   do {
     //add "I love the Beatles!" string to the array
     emptyArr.push("I love the Beatles!")
-   //increase counter variable
-   n++
+    //increase counter variable
+    n++
     }
   //ensures loop stops when the parameter number hits 15
   while (n<15);
-  //return array with the strings "I love the Beatles! repearted 
-  //the requisite number of times
+  //return array with the strings "I love the Beatles! repeated the requisite number of times
   return emptyArr
   }
