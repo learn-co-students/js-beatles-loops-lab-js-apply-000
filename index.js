@@ -30,7 +30,7 @@ function johnLennonFacts(){
 		newArr.push("!!!");
 		newArr = newArr.join(' ');
 		i++;
-		return newArr;
+		console.log(newArr);
 	}
 }
 johnLennonFacts();
