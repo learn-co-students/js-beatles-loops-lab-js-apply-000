@@ -34,14 +34,13 @@ function johnLennonFacts(){
 johnLennonFacts();
 
 
-function iLoveTheBeatles(n){
+function iLoveTheBeatles(){
 
 	var array = [];
 	var n = 0;
-	var love = ["I love the Beatles"];
 
 	do {
-		array.push(love);
+		array.push("I love the Beatles!");
 		n++; 
 	}
 	while (n < 15);
