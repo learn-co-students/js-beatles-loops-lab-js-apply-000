@@ -26,9 +26,7 @@ function johnLennonFacts(){
 	var i = 0;
 
 	while (i < facts.length){
-		newArr = facts[i].split(' ');
-		newArr.push("!!!");
-		newArr = newArr.join(' ');
+		newArr.push(facts[i] + "!!!");
 		i++;
 	}
 	return newArr;
