@@ -13,7 +13,7 @@ return sentences;
 
 theBeatlesPlay();
 
-function johnLennonFacts(facts){
+function johnLennonFacts(){
 
 	const facts = [
 	  "He was the last Beatle to learn to drive",
@@ -32,6 +32,7 @@ function johnLennonFacts(facts){
 	return newArr;
 }
 johnLennonFacts();
+
 
 function iLoveTheBeatles(num){
 
