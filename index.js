@@ -33,6 +33,24 @@ function johnLennonFacts(){
 }
 johnLennonFacts();
 
+function johnLennonFacts(){
+
+	const facts = [
+	  "foo",
+	  "bar"
+	];
+
+	var newArr = [];
+	var i = 0;
+
+	while (i < facts.length){
+		newArr.push(facts[i] + "!!!");
+		i++;
+	}
+	return newArr;
+}
+johnLennonFacts();
+
 
 function iLoveTheBeatles(num){
 
