@@ -12,10 +12,10 @@ function johnLennonFacts(facts){
 
   var i = 0;
   while(i < facts.length){
-    factsOnTheBeatles.push(facts[i] + "!!!");
+    facts[i] = facts[i] + "!!!";
     i++;
   }
-  return factsOnTheBeatles;
+  return facts;
 }
 
 
