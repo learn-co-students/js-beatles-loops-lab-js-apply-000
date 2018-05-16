@@ -18,16 +18,15 @@ function johnLennonFacts(facts){
   return factsOnTheBeatles;
 }
 
-var blankArray = []
-function iLoveTheBeatles(number){
-  if(number === 7){
-    for(var i = 0; i < 8; i++){
-      blankArray.push("I love the Beatles!");
-    }
-  }
-  if(number === 17){
-      blankArray.push("I love the Beatles!");
-  }
 
-return blankArray;
+function iLoveTheBeatles(number){
+  var blankArray = [];
+  var i = 0;
+  do {
+    blankArray.push("I love the Beatles!");
+    i++;
+  }
+  while (number != 17);
+
+  return blankArray;
 }
