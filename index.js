@@ -1,24 +1,24 @@
-function theBeatlesPlay(musicians, instruments) {
-  var empty = [];
-  for (var i=0; i < musicians.length; i++) {
-    empty.push(musicians[i] + ' plays ' + instruments[i]);
+function theBeatlesPlay(musician, instrument) {
+  var emptyArray = [];
+  for (var i=0; i < musician.length; i++) {
+    emptyArray.push(musician[i] + ' plays ' + instrument[i]);
   }
-  return empty
+  return emptyArray;
 }
 function johnLennonFacts(facts) {
-  var emptyfacts = [];
+  var emptyFacts = [];
   var i = 0;
-  while (i< facts.length) {
-    emptyfacts.push(facts[i] + '!!!');
+  while (i < facts.length ) {
+    emptyFacts.push(facts[i] + '!!!');
     i++;
   }
-  return emptyfacts;
+  return emptyFacts;
 }
 function iLoveTheBeatles(n) {
-  var empty = [];
+  var emptyN = [];
   do {
-    empty.push("I love the Beatles!");
-     n++;
+    n++;
+    emptyN.push("I love the Beatles!");
   } while (n < 15);
-    return empty;
-}  
+  return emptyN;
+}
