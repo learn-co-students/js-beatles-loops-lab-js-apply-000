@@ -1,0 +1,33 @@
+var musicians =["John Lennon", "Paul McCartney", "George Harrison","Ringo Starr"];
+var instruments=["drum","guitar","piano","bass","volin"];
+
+function theBeatlesPlay(musicians,instruments){
+  var empty=[];
+  for (var i =0; i<musicians.length;i++ ){
+    empty.push(musicians[i]+" plays "+instruments[i]);
+  }
+  return empty;
+}
+const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+];
+function johnLennonFacts(facts){
+var n=0;
+
+ while (n<facts.length ){
+    facts[n]+="!!!";n++;
+  }
+  return facts;
+}
+
+function iLoveTheBeatles(x){
+  var em=[];
+  do {
+    em.push("I love the Beatles!");x++;
+  }
+  while (x<15);
+  return em
+}
