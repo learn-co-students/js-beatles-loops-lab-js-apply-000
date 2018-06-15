@@ -1,15 +1,13 @@
 global.expect = require('expect');
 
-const babel = require('babel-core');
 const jsdom = require('jsdom');
 const path = require('path');
 
 before(function(done) {
-  const js = path.resolve(__dirname, '..', 'index.js');
-  const babelResult = babel.transformFileSync(js, {
+  const src = path.resolve(__dirname, '..', 'index.js');
+  const babelResult = require('babel-core').transformFileSync(src, {
     presets: ['es2015']
   });
-
   const html = path.resolve(__dirname, '..', 'index.html');
 
   jsdom.env(html, [], {
@@ -20,7 +18,9 @@ before(function(done) {
       return done(err);
     }
 
-    global.window = window;
+    Object.keys(window).forEach(key => {
+      global[key] = window[key];
+    });
 
     return done();
   });
