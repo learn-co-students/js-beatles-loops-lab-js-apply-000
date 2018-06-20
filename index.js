@@ -14,10 +14,10 @@ var facts2=[]
 var i=0
 function johnLennonFacts(facts) {
   while(i<4) {
-    facts.push(facts[i] + '!!!')
+    facts2.push(facts[i] + '!!!')
     i++
   }
-  return facts
+  return facts2
 }
 
 n=1
