@@ -10,30 +10,22 @@ function theBeatlesPlay(){
   return list
 }
 
-var facts = [
-  "He was the last Beatle to learn to drive",
-  "He was never a vegetarian",
-  "He was a choir boy and boy scout",
-  "He hated the sound of his own voice"
-]
-
 var facts2=[]
 var i=0
 function johnLennonFacts(facts) {
-  while(facts2.length<facts.length) {
-    facts2.push(facts[i] + '!!!')
+  while(i<4) {
+    facts.push(facts[i] + '!!!')
     i++
   }
-  return facts2
+  return facts
 }
 
-
-i=1
-function iLoveTheBeatles(i) {
+n=1
+function iLoveTheBeatles(n) {
   var beatlesAreLove= []
   do { 
     beatlesAreLove.push('I love the Beatles!')
-    i++
-} while (i<15)
+    n++
+} while (n<15)
 return beatlesAreLove
 }
