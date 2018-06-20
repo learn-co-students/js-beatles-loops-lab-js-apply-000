@@ -10,14 +10,14 @@ function theBeatlesPlay(){
   return list
 }
 
-var facts2=[]
-var i=0
+
 function johnLennonFacts(facts) {
-  while(i<4) {
-    facts2.push(facts[i] + '!!!')
+  var i=0
+  while(i<facts.length) {
+    facts[i]=(facts[i] + '!!!')
     i++
   }
-  return facts2
+  return facts
 }
 
 n=1
