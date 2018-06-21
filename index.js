@@ -30,5 +30,3 @@ function iLoveTheBeatles(number){
   return emptyArray
 }
 
-
- 
