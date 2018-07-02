@@ -29,7 +29,7 @@ function iLoveTheBeatles (number){
     printArray[i] = "I love the Beatles!";
     i++;
     number++;
-  } while (i <= number && number < 15);
+  } while (number < 15);
 
   return printArray;
 }
