@@ -3,5 +3,5 @@
    const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"]
    
    function theBeatlesPlay(musicians, instruments){
-     
+     return musicians + ' plays ' + instruments
    }
