@@ -1,10 +1,13 @@
+<<<<<<< HEAD
 const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
 const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 var i;
 var text;
+var finalText;
 function theBeatlesPlay (musicians, instruments) {
   for (i = 0; i < musicians.length; i++){
-    text += musicians[i] +  "plays" + instruments[i] + " ";
+    text = musicians[i] +  "plays" + instruments[i] + " ";
+    finalText = text [];
   }
   return text;
 }
@@ -33,3 +36,17 @@ function iLoveTheBeatles(n) {
   while (n < 15);
   return strings;
 }
+=======
+var musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+var instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+function theBeatlesPlay(musicians, instruments) {
+  var i;
+  var j;
+  var text = [];
+  for (i = 0 && i=0; i < musicians.length && instruments.length; i++){
+    text += musicians[i]  + instruments[j] + "<br>";
+  }
+  return text();
+}
+
+>>>>>>> b496cfadbdd0efd6993d4456c42b6dd02b4a9e53
