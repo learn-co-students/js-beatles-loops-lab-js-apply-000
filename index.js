@@ -14,7 +14,7 @@ function theBeatlesPlay(musicians, instruments){
       loudFacts.push(`${facts[i]}!!!`);
       i++;
     }
-    return loudFacts
+    return loudFacts;
   }
   
   function iLoveTheBeatles(n){
@@ -25,5 +25,5 @@ function theBeatlesPlay(musicians, instruments){
       n = n + 1;
     } 
     while (n < 15);
-    return theArray
+    return theArray;
   }
