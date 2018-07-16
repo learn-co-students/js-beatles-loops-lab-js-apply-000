@@ -9,8 +9,9 @@ function theBeatlesPlay(musicians, instruments){
 
 function johnLennonFacts(fact){
   var jLFacts = [];
-  for(let i = 0; i < fact.length; i++){
-    jLFacts[i] = `${fact[i]}!!!`
+  var i = 0;
+  while(i < fact.length){
+    jLFacts[i] = `${fact[i++]}!!!`
   }
   return jLFacts;
 }
@@ -20,7 +21,6 @@ function iLoveTheBeatles(aNumber){
   var i = 0;
   do {
     iHeartBeatles[i] = "I love the Beatles!"
-    i++;
-  } while (i <= aNumber && aNumber < 15)
+  } while (++i <= aNumber && aNumber < 15)
   return iHeartBeatles;
 }
