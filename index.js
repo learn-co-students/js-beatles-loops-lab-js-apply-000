@@ -44,8 +44,3 @@ function iLoveTheBeatles (n){
   return beatles3;
 }
 
-
-
-
-
-
