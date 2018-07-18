@@ -34,3 +34,18 @@ function johnLennonFacts (array){
   return beatles2;
 }
 
+function iLoveTheBeatles (n){
+  var beatles3 = [];
+  do{
+    n = n+1;
+    beatles3.push("I love the Beatles!");
+  } while(n<15);
+  
+  return beatles3;
+}
+
+
+
+
+
+
