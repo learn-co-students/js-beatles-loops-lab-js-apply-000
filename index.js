@@ -4,8 +4,8 @@
    
    function theBeatlesPlay (musicians, instruments){
        var beatles = [];
-       for (i=0, i < musicians.length, i++){
-beatles.push(`${musicians.slice(i)} plays ${instruments.slice(i)}`);
+       for (let i=0; i < musicians.length; i++){
+beatles.push(`${musicians[i]} plays ${instruments[i]}`);
 }
        return beatles;
    }
