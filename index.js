@@ -23,12 +23,12 @@ function theBeatlesPlay (musicians, instruments){
     "bar"
     ]; 
   
-function johnLennonFacts (){
+function johnLennonFacts (array){
 
   var beatles2 = [];
   var f = 0;
-  while (f<facts.length){
-    beatles2.push(`${facts[f]}!!!`);
+  while (f<array.length){
+    beatles2.push(`${array[f]}!!!`);
     f++;
   }
 
