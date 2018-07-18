@@ -11,7 +11,7 @@ function theBeatlesPlay (musicians, instruments){
        return beatles;
 }
    
-function johnLennonFacts (){
+function johnLennonFacts (fact){
   const facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
@@ -19,10 +19,10 @@ function johnLennonFacts (){
   "He hated the sound of his own voice"
   ];
   var beatles2 = [];
-  var f = 0;
-  while (f<facts.length){
-    f--;
+  var f = 1;
+  while (f<=facts.length){
     beatles2.push(`${facts[f]}!!!`);
+    f++;
   }
   return beatles2;
 }
