@@ -31,5 +31,6 @@ function johnLennonFacts (array){
     beatles2.push(`${array[f]}!!!`);
     f++;
   }
-
+  return beatles2;
 }
+
