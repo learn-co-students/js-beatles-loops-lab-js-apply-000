@@ -4,3 +4,12 @@ function theBeatlesPlay(musician, instrument){
   } return i
 }
 
+
+
+
+function iLoveTheBeatles(number){
+  let num = [];
+  do {num.push("I love the Beatles!")}
+  while(number < 15);
+  return num
+}
