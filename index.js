@@ -1,12 +1,12 @@
 
 const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
-const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+const instruments = ["Guitar\n", "Bass Guitar\n", "Lead Guitar\n", "Drums\n"];
 function theBeatlesPlay (musicians, instruments) {
   var i;
   var text;
   var finalText = [];
   for (i = 0; i <  musicians.length; i++) {
-    text = musicians[i] +  "plays " + instruments[i] + ", ";
+    text = musicians[i] +  " plays " + instruments[i];
     finalText [i] = text;
   }
 return finalText;
@@ -18,11 +18,12 @@ function johnLennonFacts(factsArray){
 var i=0;
 var newArray=[];
 while (factsArray.length > i) {
-  newArray.push(`${factsArray[i]}` + "!!!");
+  newArray.push(`${factsArray[i]}` + "!!");
   i++;
   }
 return newArray;
 }
+
 
 function iLoveTheBeatles(n) {
   var strings=[];
