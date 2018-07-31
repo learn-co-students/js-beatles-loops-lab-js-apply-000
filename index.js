@@ -1,9 +1,9 @@
-// add solution here
+'use strict';
 
-function theBeatlesPlay(intstrument, musicians) {
-var phrase = [];
+function theBeatlesPlay(instruments, musicians) {
+var phrases = [];
 for (var i = 0; i < musicians.length; i++) {
-  phrases.push(musicans[i] + " plays " + instruments[i]);
+  phrases.push(musicians[i] + " plays " + instruments[i]);
 }
 return phrases;
   
@@ -18,4 +18,13 @@ function johnLennonFacts() {
     i++;
   }
   return newFacts;
+}
+function iLoveTheBeatles(num) {
+  var phrases = [];
+  do {
+    phrases.push("I love the Beatles!");
+    num++
+    
+  } while (num < 15);
+  return phrases;
 }
