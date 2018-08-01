@@ -4,9 +4,7 @@ const theBeatlesPlay = (arrMus, arrIns) => {
   const anArr = [];
   
   for (let i = 0; i < arrMus.length; ++i) {
-    const currentMusician = arrMus[i];
-    const currentInstrument = arrIns[i];
-    const concatString = `${currentMusician} plays ${currentInstrument}`;
+    const concatString = `${arrMus[i]} plays ${arrIns[i]}`;
     anArr.push(concatString);
   }
   
