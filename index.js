@@ -21,7 +21,7 @@ function theBeatlesPlay(musicians, instruments) {
 
 function johnLennonFacts(facts) {
   var exclaims = [];
-  var i = 0
+  var i = 0;
   while (i < facts.length) {
     exclaims.push(facts[i] + "!!!");
     i++;
@@ -36,5 +36,5 @@ function iLoveTheBeatles(x) {
     x++;
   }
   while (x < 15);
-  return crazyFanSays
+  return crazyFanSays;
 }
