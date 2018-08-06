@@ -20,11 +20,11 @@ var johnLennonFacts = function (facts){
 };
 
 var iLoveTheBeatles = function(int){
-  var thisarray=[];
-  //thisarray[0] = "I love the Beatles!";
+  let thisarray=[];
   do {  
    thisarray.push("I love the Beatles!");
-    int = int + int;
+    int = int++;
     }
   while (int < 15);
+  return thisarray
 };
