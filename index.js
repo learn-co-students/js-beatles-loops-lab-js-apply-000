@@ -23,7 +23,7 @@ var iLoveTheBeatles = function(int){
   let thisarray=[];
   do {  
    thisarray.push("I love the Beatles!");
-    int = int++;
+    int++;
     }
   while (int < 15);
   return thisarray
