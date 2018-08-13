@@ -12,20 +12,31 @@ const facts = [
 function theBeatlesPlay(array1, array2) {
     var beatlesArray=[];
     for ( var i=0; i<array1.length; i++){
-    beatlesArray.push(array1 + "plays the"+ array2);
+    beatlesArray.push(array1[i] + " plays " + array2[i])};
     return beatlesArray;
-    }
+    
 }
     
 function johnLennonFacts(facts)
 {
-    while( i=0) 1<facts.length; i++);
-    return( i + "!!!")
+   var johnLove=[];
+
+    for (var i=0; i<facts.length; i++) {
+        const fact = facts[i];
+        const updatedFact = fact + '!!!';
+        johnLove.push(updatedFact);
+    }
+
+    return johnLove;
 }
 
-function iLoveTheBeatles(){
-var loveArray=[];
-loveArray.push("I Love the Beatles!")
-    while( i<15);
+function iLoveTheBeatles(number){
+    var loveArray = [];
 
+    do { 
+        loveArray.push("I love the Beatles!"); 
+        number++;
+    } while (number < 15);
+
+    return loveArray;
 }
