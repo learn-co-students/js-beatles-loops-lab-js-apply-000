@@ -15,7 +15,7 @@ const lennonFacts = [
   "He hated the sound of his own voice"
 ];
 
-// creates a function johnLennonFacts that accepts an array as a paremeter, the code block creates an empty array lennonResult and a counter variable i assigned to equal to 0; the while loop runs  as long as i < the length of the facts array accepted as the parameter. The loop body adds "!!!" to the fact[i] element and pushes the string to the lennonResult array and returns the array lennonResult
+// creates a function johnLennonFacts that accepts an array as a paremeter, the code block creates an empty array lennonResult and a counter variable i assigned to equal to 0; the while loop runs  as long as i < the length of the facts array accepted as the parameter. The loop body adds "!!!" to the fact[i] element and pushes the string to the lennonResult array and incremenets counter variable i by 1. The function then returns the array lennonResult
 function johnLennonFacts(facts) {
   var lennonResult = [];
   var i = 0;
