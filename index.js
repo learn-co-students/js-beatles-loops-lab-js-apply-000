@@ -1,12 +1,12 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments){
-const array = []
-let counter = 0
-  for(counter; counter < musicians.lenght; counter++){
-    array[counter] = `${musicians[counter]} plays ${instruments[counter]}`
-  }
-  return array
+  const arr = []
 
+   for (let i = 0, l = musicians.length; i < l; i++) {
+     arr.push(`${musicians[i]} plays ${instruments[i]}`)
+   }
+
+   return arr
 
 }
 function iLoveTheBeatles(number){
@@ -17,14 +17,17 @@ do{
   number++
 }while(number < 15)
 
+return arr
 
 }
 
-function johnLennonFacts(array_facts){
-const arr = []
-  var i = 0;
-  while(i<array_facts.lenght){
-    arr[i] = array_facts[i] + "!!!";
-  }
-  return arr
-}
+function johnLennonFacts(facts){
+  const shoutedFacts = []
+
+   let i = 0
+   while (i < facts.length) {
+     shoutedFacts.push(`${facts[i]}!!!`)
+     i++
+   }
+
+   return shoutedFacts}
