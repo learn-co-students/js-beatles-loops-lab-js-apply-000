@@ -33,6 +33,9 @@ const facts = [
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
+
+
+
 ```
 
 Use a while loop to loop over the facts array and add `"!!!"` to the end of
