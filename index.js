@@ -29,19 +29,16 @@ function theBeatlesPlay() {
   return beatlesPlay
 }
 
-
-////////////////////////////////////
-
 function johnLennonFacts() {
   i = 0
   while (i < facts.length){
+    
     facts[i] = facts[i] + '!!!'
+    
     i++
   }
   return facts
 }
-
-
 
 
 function iLoveTheBeatles() {
