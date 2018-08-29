@@ -39,6 +39,7 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(n){
   if (n < 15) n = 15
+  n = n - 15
   var beatlesLuv = []
   i = 0
   do {
