@@ -11,7 +11,7 @@ const instruments = [
   'Lead Guitar',
   'Drums'
 ];
-const facts = [
+var facts = [
   'He was the last Beatle to learn to drive',
   'He was never a vegetarian',
   'He was a choir boy and boy scout',
@@ -21,7 +21,6 @@ var beatlesPlay = []
 var i
 var num = 15
 
-
 function theBeatlesPlay() {
   for (i = 0; i < beatles.length; i++){
   beatlesPlay[i] = beatles[i] + ' plays ' + instruments[i]
@@ -29,22 +28,20 @@ function theBeatlesPlay() {
   return beatlesPlay
 }
 
-function johnLennonFacts() {
+function johnLennonFacts(facts) {
   i = 0
   while (i < facts.length){
-    
     facts[i] = facts[i] + '!!!'
-    
     i++
   }
   return facts
 }
 
-
-function iLoveTheBeatles() {
+function iLoveTheBeatles(num) {
   var beatlesLuv = []
   i = 0
-  do {i = i + 1
+  do {
     beatlesLuv[i] = 'I love the Beatles!'
+    i++
   } while (i < num)
 }
