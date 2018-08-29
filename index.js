@@ -19,7 +19,6 @@ var facts = [
 ];
 var beatlesPlay = []
 var i
-var num = 15
 
 function theBeatlesPlay() {
   for (i = 0; i < beatles.length; i++){
@@ -37,11 +36,14 @@ function johnLennonFacts(facts) {
   return facts
 }
 
-function iLoveTheBeatles(num) {
+
+function iLoveTheBeatles(n){
+  if (n < 15) n = 15
   var beatlesLuv = []
   i = 0
   do {
     beatlesLuv[i] = 'I love the Beatles!'
     i++
-  } while (i < num)
+  } while (i < n)
+  return beatlesLuv
 }
