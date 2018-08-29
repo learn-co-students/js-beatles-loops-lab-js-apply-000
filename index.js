@@ -18,8 +18,9 @@ const facts = [
   'He hated the sound of his own voice'
 ];
 var beatlesPlay = []
-var i, num
+var i
 var num = 15
+
 
 function theBeatlesPlay() {
   for (i = 0; i < beatles.length; i++){
@@ -28,24 +29,17 @@ function theBeatlesPlay() {
   return beatlesPlay
 }
 
+
 ////////////////////////////////////
 
-
-
-
 function johnLennonFacts() {
+  i = 0
   while (i < facts.length){
-    
-    var foo = facts[i] + '!!!'
-    
-    facts[i] = foo
+    facts[i] = facts[i] + '!!!'
     i++
   }
   return facts
 }
-
-
-
 
 
 
