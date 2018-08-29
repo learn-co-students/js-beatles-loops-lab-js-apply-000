@@ -23,18 +23,32 @@ var num = 15
 
 function theBeatlesPlay() {
   for (i = 0; i < beatles.length; i++){
-  beatlesPlay[i] = beatles[i] + ' plays '  + instruments[i]
+  beatlesPlay[i] = beatles[i] + ' plays ' + instruments[i]
   }
   return beatlesPlay
 }
 
+////////////////////////////////////
+
+
+
+
 function johnLennonFacts() {
   while (i < facts.length){
-    facts[i] = facts[i] + '!!!'
+    
+    var foo = facts[i] + '!!!'
+    
+    facts[i] = foo
     i++
   }
   return facts
 }
+
+
+
+
+
+
 
 function iLoveTheBeatles() {
   var beatlesLuv = []
