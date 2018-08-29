@@ -1,15 +1,12 @@
-// add solution here
 
-
-var beatles = ['John Lennon','Ringo Starr','Paul McCartney','George Harrison']
-var instruments = ['Guitar','Drums','Bass','Guitar']
+var beatles = ['John Lennon','Paul McCartney','George Harrison','Ringo Starr']
+var instruments = ['Guitar','Bass','Lead Guitar','Drums']
 var beatlesPlay = []
-var number = 6
 var i = null
 
-theBeatlesPlay(){
+function theBeatlesPlay(){
   for (i = 0; i < beatles.length; i++){
-  beatlesPlay[i] = beatles[i] + " plays " + instruments[i]
+  beatlesPlay[i] = beatles[i] + ' plays '  + instruments[i]
   }
   return beatlesPlay[i]
 }
