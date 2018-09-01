@@ -1,6 +1,10 @@
 // add solution here
+
+// In the interests of good practice... I am adopting use of let and const
+// for variable declaration because they are block scoped
+
 function theBeatlesPlay(musicians, instruments) {
-  var arr = []
+  const arr = []
 
   for (var i = 0; i < musicians.length; i++) {
     arr.push(musicians[i] + ' plays ' + instruments[i])
@@ -11,7 +15,7 @@ function theBeatlesPlay(musicians, instruments) {
 
 
 function johnLennonFacts(facts) {
-  var i = 0;
+  let i = 0;
   // condition works because anything with a value is TRUE
   while (facts[i]) {
     facts[i] += '!!!'
@@ -23,7 +27,7 @@ function johnLennonFacts(facts) {
 
 
 function iLoveTheBeatles(n) {
-  var arr =[]
+  const arr = []
 
   do {
     arr.push("I love the Beatles!")
