@@ -49,6 +49,6 @@ function iLoveTheBeatles(n){
         arr.push("I love the Beatles!");
         n++; // Push = add to the array and n++ = increase by 1.
     }
-    while (n < 15); // loop while n > 15
+    while (n < 15); // loop while n < 15
     return arr; // return the array
   }
