@@ -20,11 +20,7 @@ function theBeatlesPlay(musicians, instruments) {
   return array;
 }
     // performs the loopbody if it recieves anything indexed below 4.
-    //loopbody must take the array, add !!! to end of each string, and return the array.
-    while (i < 4) {
-      array.push(`${array[i]} "!!!"`);
-     return array;
-     }
+    //loopbody must take the array, add !!! to end of each string, and return the array
      
   
   function iLoveTheBeatles(number) {
