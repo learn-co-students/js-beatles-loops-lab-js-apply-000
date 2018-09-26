@@ -19,6 +19,8 @@ function theBeatlesPlay(musicians, instruments) {
 
 theBeatlesPlay(["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"], ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"])
 
+console.log(theBeatlesPlay(["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"], ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"]))
+
 function johnLennonFacts(facts) {
   var i = 0
   while(i < facts.length) {
@@ -35,9 +37,16 @@ johnLennonFacts([
   "He hated the sound of his own voice"
   ])
   
+  console.log(johnLennonFacts([
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+  ]))
+  
   /*
   * Using a do-while loop
-  * Increment the the parameter number (less than 15) 
+  * Increment the parameter number (less than 15) 
   */
   
   function iLoveTheBeatles(countdown){
