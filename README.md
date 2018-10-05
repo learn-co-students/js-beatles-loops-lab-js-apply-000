@@ -21,7 +21,7 @@ of the musicians array **and** the first index of the instruments array:
 `"John Lennon plays guitar"`. 
 * Add this string to the empty array you created. The loop should make the same
 sentence for every member of the musicians array. 
-* The function should return the array of new strings.
+* The function should return the array of new strings containing what instruments each musician plays.
 
 2. Create a function `johnLennonFacts`. 
 * This function will accept one argument, an array of facts about John Lennon
