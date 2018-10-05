@@ -45,7 +45,8 @@ every fact.
 * Implement a do-while loop inside the function that adds `"I love the Beatles!"`
 to the empty array. 
 * The loop should then increment the number passed in as a parameter. The condition
-of the loop should check to see that the parameter number is less than `15`. 
+of the loop should check to see that the parameter number is less than `15`. It should
+contain a number of strings that represents the difference between the input number and `15`.
 * Return the array with the strings `"I love the Beatles!"`.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-beatles-loops-lab' title='Beatles Loops'>Beatles Loops</a> on Learn.co and start learning to code for free.</p>
