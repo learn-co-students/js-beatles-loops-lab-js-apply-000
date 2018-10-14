@@ -16,7 +16,9 @@ const instrument = ["Guitar","Bass Guitar","Lead Guitar","Drums"];}// d so
  
     
  })
-  
+  t("returns an array of 'I love the Beatles!' once when passed the parameter 17", function() {
+      expect(iLoveTheBeatles(17)).toEqual(["I love the Beatles!"]);
+    });
   
                 
  
