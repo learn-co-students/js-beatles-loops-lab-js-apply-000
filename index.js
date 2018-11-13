@@ -1,10 +1,12 @@
+const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+
 function theBeatlesPlay(musicians, instruments) {
-  var array = ['John Lennon plays Guitar', 'Paul McCartney plays Bass Guitar',
-  'George Harrison plays Lead Guitar', 'Ringo Starr plays Drums'];
-  for (var i = 0; i < musicians.legth; i++) {
-        array.push(musicians[i]+ 'plays' + instruments[i]);
+  var list = [];
+  for (let i=0; i<musicians.length; i++) {
+    list.push(musicians[i] + ' plays ' + instruments[i]);
   }
-  return array;
+  return list;
 }
 
 function johnLennonFacts(facts) {
