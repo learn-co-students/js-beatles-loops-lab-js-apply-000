@@ -6,6 +6,7 @@ function theBeatlesPlay(mus, instr) {
   return theBand;
 }
 
+/*Instructions for johnLennonFacts(facts) are ambiguous about returning exactly the same input array or returning 'an array of strings'*/
 function johnLennonFacts(facts) {
   let i = 0
   while(i < facts.length) {
