@@ -20,8 +20,9 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(num){
 var loveArray = [];
 var i = 0;
-if ( num < 15)
-var newNum =  15 - num;
+if ( num < 15){
+  var newNum =  15 - num;
+}
 do {
   var saying = "I love the Beatles!";
   loveArray.push(saying);
