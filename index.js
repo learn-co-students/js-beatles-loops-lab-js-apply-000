@@ -6,12 +6,14 @@ function theBeatlesPlay(musicians, instruments){
   return allM
 }
 
-function johnLennonFacts(){
-  var facts = ["He was born after 30 hours of labor", "He was expelled from school at age 5", "He was a fan of Elvis Presley", "He discovered in adult life that he was dyslexic"]
+const facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"]
+
+function johnLennonFacts(facts){
   var excitedFacts = []
   var i=0
   while (i<facts.length){
     excitedFacts.push(facts[i] + "!!!")
+    i++
   }
   return excitedFacts
 }
