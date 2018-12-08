@@ -35,6 +35,7 @@ const facts = [
 ];
 ```
 
+
 Use a while loop to loop over the facts array and add `"!!!"` to the end of
 every fact. The function should return an array of strings with exclamation
 points.
@@ -46,5 +47,6 @@ to the empty array. Then the loop should increment the number passed in as a
 parameter. The condition of the loop should check to see that the parameter
 number is less than `15`. The function should return the array with the strings
 `"I love the Beatles!"`.
+
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-beatles-loops-lab' title='Beatles Loops'>Beatles Loops</a> on Learn.co and start learning to code for free.</p>
