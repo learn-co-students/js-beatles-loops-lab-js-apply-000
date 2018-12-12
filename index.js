@@ -1,29 +1,28 @@
 // add solution here
 function theBeatlesPlay(musicians, instruments){
-var list = [];
+  let theyPlay = [];
   for (let i = 0; i < musicians.length; i++){
-    list.push(musicians[i]+ " plays "+instruments[i])
+    theyPlay.push(musicians[i]+" plays "+ instruments[i])
   }
-  return list
+return theyPlay
 }
 
 function johnLennonFacts(n){
-let facts = n;
-let newFacts = [];
-  let i = 0;
+  let facts = n;
+  let newFacts = [];
+  let i =0;
   while (i < facts.length){
     newFacts.push(facts[i]+"!!!")
     i++
   }
-  return newFacts
+return newFacts
 }
 
 function iLoveTheBeatles(num){
-let love = [];
-  do {
-    love.push("I love the Beatles!");
-    num++
-  }
-  while (num< 15);
-return love
+  let iLove = [];
+  do{
+    iLove.push("I love the Beatles!");
+        num++;
+  } while (num < 15);
+  return iLove
 }
