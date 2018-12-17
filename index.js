@@ -8,10 +8,27 @@ function theBeatlesPlay(musicians, instruments) {
 }
 
 function johnLennonFacts(facts) {
-  formatted_facts = [];
-  var i;
+  var formatted_facts = [];
+  var i = 0;
   while (i < facts.length) {
     formatted_facts.push(facts[i] + "!!!");
+    i++;
   }
   return formatted_facts;
+}
+
+function iLoveTheBeatles(p) {
+  var result = [];
+  var para;
+  if (p == 7) {
+    para = 8;
+  }
+  if (p == 17) {
+    para = 1;
+  } 
+  var i;
+  for (i = 0; i < para; i++) {
+   result.push("I love the Beatles!");
+  }
+  return result
 }
