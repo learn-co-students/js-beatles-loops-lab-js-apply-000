@@ -1,48 +1,55 @@
-// Which musician plays what instruments
+// for loop
+var musicians = ['John Lennon'];
+var musicians_length = musicians.lenght
 
-var musicians = ['John Lennon', 'Paul McCartney', 'Ringo Starr', 'George Harrison' ]
-
-var instruments = ['guitar', 'does not play anything' , 'drums' , 'lead guitar']
+var instruments = ['Guitar'];
+var intruments_length = instruments.lenght;
 
 function theBeatlesPlay (musicians, instruments) {
-  var x =[]
-  for (let i=0, l = musicians.length; i < l; i++) {
-     x.push(`${musicians[i]} plays ${instruments[i]}`)
-  }
+	
+	for (var i = 0; i < musicians_length; i++) {
+		
+		for (var j = 0; j < intruments_length; j++) {
+			var output = musicians[i] plays the instruments[j]
 
-  return x
-  
+			console.log(output)
+		}
+
+	}
+
 }
 
-// Facts about John Lennon
-const facts = ["He was the last Beatle to learn to drive", 'He was never a vegetarian', 'He was a choir boy and boy scout' , 'He hated the sound of his own voice'];
+// while loop
+
+const facts = 
+["He was the last Beatle to learn to drive", 
+"He was never a vegetarian",
+ "He was a choir boy and a boy scout", 
+ "He hated the sound of his own voice"];
+ var y = 0;
+
 
 function johnLennonFacts (facts) {
-  const Facts_2 = []
-  
-  var i = 0
-  var m = facts.length;
-  while ( i < m) {
-    Facts_2.push(`${facts[i]}!!!`)
-    i++
-    
-    
-  }
-  
-  return Facts_2
-  
+	while (y < facts.length) {
+		y++;
+		console.log(facts[y] + "!!!");
+	}
+
+
 }
 
-// I Love the theBeatlesPlay
+// do while 
+function iLovetheBeatles(n) {
+	const array = [];
 
-function iLoveTheBeatles(n) {
-  const newarray = []
-  do {
-    newarray.push("I love the Beatles!")
-    n++
-  } while (n < 15)
-  
-  return newarray
-  
-  
-  }
+	do {
+		array.push("I love the Beatles!")
+		n++
+	} while(n < 15)
+
+	return array
+
+}
+
+
+
