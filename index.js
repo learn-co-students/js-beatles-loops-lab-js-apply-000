@@ -8,6 +8,8 @@ function theBeatlesPlay(musicians, instruments) {
   return newArray;
 }
 
+// -----------
+
 function johnLennonFacts(factsOfLennon) {
   let stringArray = [];
   let i = 0;
@@ -18,6 +20,8 @@ function johnLennonFacts(factsOfLennon) {
   }
   return stringArray;
 }
+
+// -----------
 
 function iLoveTheBeatles(number) {
   if (number > 15) {
