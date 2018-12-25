@@ -1,23 +1,25 @@
 // for loop
+
 var musicians = ['John Lennon'];
-var musicians_length = musicians.lenght
+var musicians_length = musicians.length 
 
 var instruments = ['Guitar'];
-var intruments_length = instruments.lenght;
+var intruments_length = instruments.length;
 
 function theBeatlesPlay (musicians, instruments) {
-	
-	for (var i = 0; i < musicians_length; i++) {
-		
-		for (var j = 0; j < intruments_length; j++) {
-			var output = musicians[i] plays the instruments[j]
 
-			console.log(output)
-		}
+	const newarray = [];
+	for (var i = 0; i < musicians_length; i++) {
+		var output = musicians[i] + "plays the " + instruments[0]
+		newarray.push(output);
+
+		
 
 	}
 
+	return newarray	
 }
+
 
 // while loop
 
@@ -26,19 +28,25 @@ const facts =
 "He was never a vegetarian",
  "He was a choir boy and a boy scout", 
  "He hated the sound of his own voice"];
- var y = 0;
-
+ 
 
 function johnLennonFacts (facts) {
+	const newfacts = []
+	var y = 0
 	while (y < facts.length) {
+		
+		var newoutput = facts[y] + "!!!";
 		y++;
-		console.log(facts[y] + "!!!");
+		newfacts.push(newoutput);
+
 	}
 
+return newfacts
 
 }
 
-// do while 
+// do while loop
+
 function iLovetheBeatles(n) {
 	const array = [];
 
