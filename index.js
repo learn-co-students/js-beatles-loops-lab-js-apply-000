@@ -1,5 +1,5 @@
 var musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
-var instruments = ['guitar', 'Bass guitar', 'Drums', 'Lead guitar'];
+var instruments = ['Guitar', 'Bass Guitar', 'Lead guitar', 'Drums'];
 
 const facts =[
   "He was the last Beatle to learn to drive",
@@ -9,14 +9,25 @@ const facts =[
 ];
 
 function theBeatlesPlay (musicians, instruments){
-  for( var i = 0; i < musicians.length; i++){
-    for(var j =0; j < instruments.length; j++){
-    var newArray = [];
-    newArray[i].unShift().push([]);
-      
-     }
-  }
-}
-return newArray[i] + "plays" + newArray[j];
+  for( var j = 0; j < musicians.length; j++){
 
+    var newArray = [];
+     newArray.push(`${musicians[j]} plays ${instruments[j]}`);
+     }
+  
+  
+  return newArray; 
+}
+
+
+var exClam = [];
+function johnLennonFacts(facts){
+  var i =0;
+  while (i <=facts.length){
+   i++; 
+  }
+  exClam.push(`${facts[i]} !!! `);
+  }
+  return exClam
+  
 
