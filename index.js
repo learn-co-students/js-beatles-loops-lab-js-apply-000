@@ -10,24 +10,29 @@ const facts =[
 
 function theBeatlesPlay (musicians, instruments){
   for( var j = 0; j < musicians.length; j++){
-
     var newArray = [];
-     newArray.push(`${musicians[j]} plays ${instruments[j]}`);
+     newArray.push(`${musicians[0]} plays ${instruments[0]}`);
+     newArray.push(`${musicians[1]} plays ${instruments[1]}`);
+     newArray.push(`${musicians[2]} plays ${instruments[2]}`);
+     newArray.push(`${musicians[3]} plays ${instruments[3]}`);
+
+
+
      }
-  
   
   return newArray; 
 }
 
 
-var exClam = [];
 function johnLennonFacts(facts){
   var i =0;
   while (i <=facts.length){
    i++; 
   }
+  var exClam =[];
   exClam.push(`${facts[i]} !!! `);
+ return exClam;
   }
-  return exClam
+  
   
 
