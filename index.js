@@ -66,13 +66,13 @@ const facts = [
 
 function johnLennonFacts(factsArray) {
   var i = 0;
-  var arrayNumber = factsArray.length;
+  var arrayLength = factsArray.length;
   var newFactsArray = [];
   
-  while (arrayNumber > 0) {
+  while (arrayLength > 0) {
  		newFactsArray.push(factsArray[i] + "!!!");
  		i++;
- 		arrayNumber--;
+ 		arrayLength--;
  	}
  	return newFactsArray;
  }
