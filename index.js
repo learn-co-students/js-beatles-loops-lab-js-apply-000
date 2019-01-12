@@ -29,11 +29,15 @@ function johnLennonFacts (array){
 return newArray
 }
 
+//declare the function iLoveTheBeatles which will pass one argument thats a number
 function iLoveTheBeatles (num) {
+//create empty array
   var thirdArray=[];
+//use do while method to set the string "..." up to 15 times, checking each time after the string is printed
   do {
     thirdArray.push("I love the Beatles!");
     num++;
   } while (num<15);
+//if prints more than 15 times, return thirdArray
   return thirdArray;
 }
