@@ -32,6 +32,6 @@ function iLoveTheBeatles(num)
    love.push("I love the Beatles!")
    i++
  }
- while (i<=num && num<17)
+ while (i<=num && num<8)
  return love
 }
