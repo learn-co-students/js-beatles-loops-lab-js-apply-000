@@ -22,12 +22,11 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(number){
   var solution = []
-  var i = 0
   do{
     var str = "I love the Beatles!"
     solution.push(str)
-    i++
+    number++
   }
-  while(i<(15-number)&&(number<15))
+  while(number<15)
   return solution
 }
