@@ -36,5 +36,4 @@ function iLoveTheBeatles (num) {
   }
 
 
-// important to revise: when in each function the { is located
-// interpolation of strings
+// important to revise: interpolation of strings
