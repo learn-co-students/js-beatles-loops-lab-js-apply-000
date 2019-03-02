@@ -10,11 +10,24 @@ function theBeatlesPlay(arrayOfMusicians, arrayOfInstruments) {
 }
 
 function johnLennonFacts(facts) {
+  var i = 0;
   var arr = [];
 
-  while (facts.length > 1) {
-    var str = facts[i] + " !!!";
+  while (i < facts.length) {
+
+    var str = facts[i] + "!!!";
     arr.push(str);
+    i++;
   }
+  return arr;
+}
+
+function iLoveTheBeatles(num) {
+  var arr = [];
+
+  do {
+    arr.push("I love the Beatles!")
+    num++;
+  } while ( num < 15);
   return arr;
 }
