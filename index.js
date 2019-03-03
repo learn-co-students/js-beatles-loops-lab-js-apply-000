@@ -1,4 +1,3 @@
-
 function theBeatlesPlay(musicians, instruments) {
   const empty = []
 
