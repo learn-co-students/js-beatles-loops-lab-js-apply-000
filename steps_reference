@@ -1,0 +1,23 @@
+//define constant arrays with element information
+const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+
+// create a variable with an empty array
+  var whatTheyPlay = [];
+
+//create a function theBeatlesPlay that accepts 2 parameters
+function theBeatlesPlay(musicians, instruments) {
+  
+// Use a for each loop to run through each element in the array
+  for (var i = 0; i < 4; i++) {
+    
+// Remove the first element in each of the 2 arrays
+// Use .shift() to remove the first item in each array 
+// Concatenate a string using the removed elements
+
+ var combine = musicians.shift() + " plays " + instruments.shift()
+
+// Put new concatenated string in the previously empty new array 
+    whatTheyPlay.unshift(combine)
+  }
+}
