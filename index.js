@@ -4,12 +4,10 @@ var arr = []
 
 function theBeatlesPlay (musicians,instruments) {
   for (let i = 0; i < musicians.length; i++) {
-  if (arr.length <= i) {
+
   arr.push(musicians[i] + " plays " + instruments[i])}
-  else {
-    break;
-  }
-}
+ 
+
   return arr
 }
 
