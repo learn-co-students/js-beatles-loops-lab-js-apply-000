@@ -18,7 +18,7 @@ describe('Beatles Loops', function() {
       expect(johnLennonFacts([
         "foo",
         "bar",
-      ])).toEqual(["foo!!!", "bar!!!"])
+      ])).toEqual(["foo!!!", "bar!!!"]);
     });
   });
 
