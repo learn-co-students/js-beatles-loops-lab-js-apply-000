@@ -4,11 +4,8 @@ var arr = []
 
 function theBeatlesPlay (musicians,instruments) {
   for (let i = 0; i < musicians.length; i++) {
-
   arr.push(musicians[i] + " plays " + instruments[i])}
- 
-
-  return arr
+ return arr
 }
 
 function johnLennonFacts(facts) {
