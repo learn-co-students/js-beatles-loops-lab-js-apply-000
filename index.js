@@ -1,67 +1,41 @@
-// add solution here
-function theBeatlesPlay(musician,instrument) {
-  var totalSentences = [];
-
-  for (var i = 0; i < musician.length; i++) {
-    var text = musician[i] + " plays " + instrument[i];
-    totalSentences.push(text);
-  } 
-  
-  console.log('Test 1 Results', totalSentences);
-  return totalSentences;
-}
-
-function johnLennonFacts(facts) {
-  for (var i = 0; i < facts.length; i++) {
-    facts[i] = facts[i] + "!!!"
+function theBeatlesPlay(musician,instrument){
+  var emptyarray = [];
+  var i;
+  var statement
+  for (i =0 ; i < musician.length; i++){
+    statement = musician[i] +" plays "+ instrument[i];
+    emptyarray.push(statement);
   }
-  console.log('Test 2 Results',facts)
-
-  return facts
-
+  return emptyarray;
 }
 
-// function iLoveTheBeatles () {
-//   var emptyarray = []
-//   var text = 'I love the Beatles!';
-//   var i = 0;
-//   do {emptyarray[i] = text; i++
+function johnLennonFacts(facts){
+  var i = 0;
+  for (i = 0; i < facts.length; i++){
+    facts[i] = facts[i]+"!!!";
+  }
+  console.log(facts);
+  return facts;
   
-//     }
-//   while (i < 8);
-  
-
-//   console.log('Test 3 Results',emptyarray)
-//   return emptyarray
-
-// }
-
-
-function iLoveTheBeatles (i) {
-  var count = 0;
-  var emptyarray2 = []
-  var text = 'I love the Beatles!';
-  do {
-    emptyarray2[count] = text; 
-    count++;
-    }
-  while (count < 15 - i);
-  
-
-  console.log('Test 2 Results',emptyarray2)
-  return emptyarray2;
-
 }
 
 
 
+function iLoveTheBeatles(i) {
+	var y = 0;
+	var emptyarray2 = [];
+	var text = 'I love the Beatles!';
+	do {
+		emptyarray2[y] = text;
+		y++;
+	}
+	while (y < 15 - i);
 
-
-
-
-
-
-
+	console.log('what is I', i);
+	console.log('Final Test Results', emptyarray2);
+	return emptyarray2;
+}
 
 // i++ i += 1
 // i = i + 1
+
