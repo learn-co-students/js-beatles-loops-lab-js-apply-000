@@ -24,17 +24,17 @@ function johnLennonFacts(facts) {
   return finalarray;
 }
 
+function iLoveTheBeatles() {
+  var rockRoll = [];
+  do {
+    rockRoll.push("I Love The Beatles!")
+    number += 1
+  }
+  while (number < 15);
+  return rockRoll;
+}
 
 
-function iLoveTheBeatles(number) {
-var rockRoll = [];
-do {
-  rockRoll.push("I love the Beatles!");
-  number += 1
-}
-while (number < 15);
-return rockRoll;
-}
 
 
 
