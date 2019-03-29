@@ -27,13 +27,13 @@ function johnLennonFacts(facts) {
 
 
 function iLoveTheBeatles(number) {
-var array = [];
+var rockRoll = [];
 do {
-  array.push("I love the Beatles!");
+  rockRoll.push("I love the Beatles!");
   number += 1
 }
 while (number < 15);
-return array;
+return rockRoll;
 }
 
 
