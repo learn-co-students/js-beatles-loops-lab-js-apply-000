@@ -24,14 +24,15 @@ function johnLennonFacts(facts) {
   return finalarray;
 }
 
-function iLoveTheBeatles() {
-  var rockRoll = [];
+function iLoveTheBeatles(i) {
+  var rockRoll = []
   do {
-    rockRoll.push("I Love The Beatles!")
-    number += 1
+    rockRoll.push("I love the Beatles!")
+    i++
   }
-  while (number < 15);
-  return rockRoll;
+  while (i < 15)
+  
+  return rockRoll
 }
 
 
