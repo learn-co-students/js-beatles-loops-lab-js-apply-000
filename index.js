@@ -1,12 +1,24 @@
 // add solution here
 
 function theBeatlesPlay(){
-  var members = ['John' 'Paul' 'Ringo' 'George']
-  var instruments= ['guitar' 'bass' 'drums' 'guitar']
+  var members = ['John Lennon', 'Paul McCartney', 'George Harrison', 'Ringo Starr']
+  var instr= ['Guitar', 'Bass Guitar' ,'Lead Guitar', 'Drums']
   var beatles = []
-  var i;
-  for (i in members, i in instruments) { beatles += members +'plays' + instruments}
-
-  }
-}
+  var i=0
+  for (i=0;i<members.length; i++) {
+    beatles.push(members[i] +' plays ' + instr[i])}
 return beatles
+  }
+
+function johnLennonFacts(){
+  const unoriginalfacts = [
+    "He was the last Beatle to learn to drive",
+    "He was never a vegetarian",
+    "He was a choir boy and boy scout",
+    "He hated the sound of his own voice"
+  ]
+  var i=0
+  while(i<unoriginalfacts.length){
+    unoriginalfacts[i]+ "!!!"
+  }
+return unoriginalfacts}
