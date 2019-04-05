@@ -19,8 +19,22 @@ function johnLennonFacts(){
   ]
   var i=0
   while(i<unoriginalfacts.length){
-    unoriginalfacts[i]+ "!!!"
+    unoriginalfacts[i]+= "!!!"
+    i++
   }
 return unoriginalfacts}
 
-//the IDE started bugging at this point- will return later
+function iLoveTheBeatles(num){
+  var num= 7
+  var array=[]
+    if(num<15){
+      do{
+      array.push("I love the Beatles!");
+      num --;
+      console.log(num)
+  }
+  while (num>1)
+} else{
+  array = 'I love the Beatles!'}
+return array
+}
