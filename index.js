@@ -24,8 +24,9 @@ function johnLennonFacts(){
   }
 return unoriginalfacts}
 
+
+num= 7
 function iLoveTheBeatles(num){
-  var num= 7
   var array=[]
     if(num<15){
       do{
@@ -33,7 +34,7 @@ function iLoveTheBeatles(num){
       num --;
       console.log(num)
   }
-  while (num>1)
+  while (num>0)
 } else{
   array = 'I love the Beatles!'}
 return array
