@@ -20,7 +20,7 @@ function johnLennonFacts(facts) {
 
   while (counter < facts.length) {
 
-    str = `${facts[counter]} !!!`;
+    str = `${facts[counter]}!!!`;
     factArr.push(str);
     counter++;
 
