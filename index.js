@@ -3,7 +3,7 @@ function theBeatlesPlay(musicians, instruments) {
   var myArr = [];
   var strs;
 
-  for (i=0; i < musicians.length; i++) {
+  for (let i=0; i < musicians.length; i++) {
     strs = `${musicians[i]} plays ${instruments[i]}`;
     myArr.push(strs);
   }
@@ -20,7 +20,7 @@ function johnLennonFacts(facts) {
 
   while (counter < facts.length) {
 
-    str = facts[counter] + '!!!';
+    str = `${facts[counter]} !!!`;
     factArr.push(str);
     counter++;
 
