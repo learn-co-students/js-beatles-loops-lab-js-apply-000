@@ -27,6 +27,8 @@ array of facts about John Lennon (note that it might not be exactly the
 following facts):
 
 ```js
+
+
 const facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
