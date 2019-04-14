@@ -49,20 +49,3 @@ number is less than `15`. The function should return the array with the strings
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-beatles-loops-lab' title='Beatles Loops'>Beatles Loops</a> on Learn.co and start learning to code for free.</p>
 
-let musiciansArray = ["John", "Ringo", "Paul"];
-let instrumentsArray = ["guitar", "drums", "bass"];
-
-function theBeatlesPlay(musiciansArray, instrumentsArray) {
-  let fullSentences = [];
-  let i;
-  
-  for (let i=0; i < musiciansArray.length; i++) {
-    let arr1 = musiciansArray[i] + ' plays ' + instrumentsArray[i];
-    fullSentences.push(arr1);
-    console.log(arr1)
-    arr1=[];
-    
-  }
-  
-  return fullSentences;
-}
