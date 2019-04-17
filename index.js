@@ -17,3 +17,37 @@ function theBeatlesPlay(musiciansArray, instrumentsArray) {
   
   return fullSentences;
 }
+
+const facts = [
+  "He was the last Beatle to learn to drive",
+  "He was never a vegetarian",
+  "He was a choir boy and boy scout",
+  "He hated the sound of his own voice"
+];
+
+
+
+const johnLennonFacts = (facts) => {
+ let i = 0;
+ 
+  while (i < facts.length) {
+    facts[i] += "!!!";
+    i++;
+  }
+  
+  return facts;
+}
+
+const iLoveTheBeatles = (n) => {
+  let arr1 = [];
+  
+  do {
+    arr1.push("I love the Beatles!");
+    n++;
+  } while (n<15); 
+  
+  return arr1;
+}
+
+
+
