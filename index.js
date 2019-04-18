@@ -15,8 +15,8 @@ function johnLennonFacts(facts){
   let shout = [];
   
   let i = 0;
-  while(i< facts.length){
-    shout.push(`${facts[i]}!!!`)
+  while(i < facts.length){
+    shout.push(facts[i] + "!!!");
     i++
   }
   return shout;
@@ -29,5 +29,4 @@ function iLoveTheBeatles(n){
     n++;
   } while (n < 15);
   return love;
- 
-}
+ }
