@@ -1,3 +1,4 @@
+
 function theBeatlesPlay(players, instruments){        //first function
 
 
@@ -9,23 +10,27 @@ function theBeatlesPlay(players, instruments){        //first function
   
 }
 
-function johnLennonFacts(){
+function johnLennonFacts(facts){
   //second function
   
-  const facts = ["He was the last Beatle to learn to drive",
+  /* this was a mistake leaving it here for learning purposes
+  
+  const factuals = ["He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"];
   
-  var newFaxxxx = [];
+  
+  */
+  var newFacts = [];
   
   var i = 0;
   while (i < facts.length){
-    newFaxxxx.push(facts[i] + "!!!");
+    newFacts.push(facts[i] + "!!!");
     i++;
   }
   
-  return newFaxxxx;
+  return newFacts;
   
   }
 
