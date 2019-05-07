@@ -68,11 +68,11 @@ describe('iLoveTheBeatles', function() {
 
 function iLoveTheBeatles(y) //declare function
 {
-    var emptyArray = []; //declare array
+    var emptyArray = []; //declare empty array
   do{
-     emptyArray.push('I love the Beatles!'); //assign the string to variable 0
+     emptyArray.push('I love the Beatles!'); //assign the string to variable
     
-     y++; //increment array location
+     y++; //increment parameter
     
     }
   while (y < 15); //check to see if requirements met
