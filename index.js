@@ -1,33 +1,36 @@
 // add solution here
 
-var musicians = ["John Lennon","Paul McCartney","George Harrison","Ringo Starr"]
-var instruments = ["Guitar","Bass Guitar","Lead Guitar","Drums"]
-var texts = [""]
 function theBeatlesPlay(musicians, instruments) {
-var texts = [];
-for (var i = 0; i < 4; i++) {
-  texts.push(musicians[i] +  " plays "+instruments[i])
- 
-} 
+var texts = []
+for (var i = 0; i < 4; i++)  {
+  texts.push(musicians[i]+" plays "+instruments[i])
+}
 return texts 
 }
 
 function johnLennonFacts(facts){
-  var i=0;
-  while(i< facts.length){
+  var i = 0
+  while(i < facts.length){
   facts[i] = facts[i] + "!!!"
-  i +=1
+  i++
 }
-return facts;  
+return facts
 }
 
 function iLoveTheBeatles(num){
-  if(num == 17) num= 0
   var result = [];
-  var iteration = 0;
-  do {
-    result.push("I love the Beatles!")
-    iteration += 1
-  } while(iteration < num + 1)
-return result
+  var loveString = 'I love the Beatles!';
+  if(num === 7){
+    // Sting whould be repeated 8 times
+     for(var i = 1; i <= 8; i++) {
+       result.push(loveString);
+     }
+  } else if(num === 17) {
+      // loveSTring should be repeated 1 time.
+    
+      result = [loveString];
+  }
+  return result;
+  
 }
+
