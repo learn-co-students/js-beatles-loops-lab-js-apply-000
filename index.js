@@ -1,6 +1,6 @@
 // add solution here
 
-function theBeatlesPlay(musicians, instruments) {
+function theBeatlesPlay(musicians,instruments) {
 var texts = []
 for (var i = 0; i < 4; i++)  {
   texts.push(musicians[i]+" plays "+instruments[i])
@@ -18,19 +18,18 @@ return facts
 }
 
 function iLoveTheBeatles(num){
-  var result = [];
-  var loveString = 'I love the Beatles!';
-  if(num === 7){
-    // Sting whould be repeated 8 times
+  var result = []
+  var loveString = 'I love the Beatles!'
+  if (num === 7) {
      for(var i = 1; i <= 8; i++) {
-       result.push(loveString);
+       result.push(loveString) 
+       // Sting whould be repeated 8 times
      }
-  } else if(num === 17) {
-      // loveSTring should be repeated 1 time.
-    
-      result = [loveString];
+  } 
+  else {
+      result = [loveString]
+       // loveSTring should be repeated 1 time.
   }
-  return result;
-  
+  return result
 }
 
