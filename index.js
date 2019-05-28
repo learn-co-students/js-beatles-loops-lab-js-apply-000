@@ -1,10 +1,12 @@
-function theBeatlesPlay(players, instruments) { // create function with 2 parameters.
-  var allPlayers = []; //create variable with empty array
-  for (var i=0; i < players.length; i++) { //iterates over array starting from 0 (the first one)                                      //([initialization]; [condition]; [iteration]) {[loopBody];
+function theBeatlesPlay(players, instruments) {
+  var allPlayers = [];
+  for (var i=0; i < players.length; i++) {                                       
     allPlayers.push(players[i] + " plays " + instruments[i]);
   }
     return allPlayers;
 }
+
+
 
 function johnLennonFacts(facts){
   var lennonArray = [];
@@ -16,6 +18,8 @@ function johnLennonFacts(facts){
   }
   return lennonArray;
 }
+
+
 
 function iLoveTheBeatles(number){
   var loveBeatArray = [];
