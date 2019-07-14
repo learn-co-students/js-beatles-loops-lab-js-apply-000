@@ -18,14 +18,35 @@ function theBeatlesPlay(musicians, instruments) {
       return musicianInstrument
 }
 
-var johnLennonFactsArray = new Array();
 
 function johnLennonFacts(array) {
+  var i = 0
   while (i < array.length) {
-    johnLennonFactsArray.push(array[i] + '!!!')
+    array[i] += '!!!';
     i++
   }
-  return johnLennonFactsArray;
+  return array;
+}
+
+
+function iLoveTheBeatles(num) {
+  var array = new Array();
+  var i = 0
+  do {
+    array.push('I love the Beatles!')
+    i++
+  } while (i <= num)
+  return array;
+}
+
+function iLoveTheBeatles(num) {
+  var array = new Array();
+  var i = 0
+  do {
+    array.push('I love the Beatles!')
+    i++
+  } while (i <= num && num < 15);
+  return array;
 }
 
 
