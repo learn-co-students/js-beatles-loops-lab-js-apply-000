@@ -21,10 +21,12 @@ function theBeatlesPlay(musicians, instruments) {
 var johnLennonFactsArray = new Array();
 
 function johnLennonFacts(array) {
-  for (var i = 0; i < array.length; i++) {
-    johnLennonFactsArray.push(array[i] + '!!!');
+  while (i < array.length) {
+    johnLennonFactsArray.push(array[i] + '!!!')
+    i++
   }
   return johnLennonFactsArray;
 }
+
 
 
