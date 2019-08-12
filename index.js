@@ -19,15 +19,15 @@ function johnLennonFacts(facts){
 }
 
 function iLoveTheBeatles(number){
-  var loveBeatles = [];
-  var text = "I love the Beatles!";
-  var i = 0;
- do {
-    loveBeatles[i] = "I love the Beatles!";
-    i++;
- }
+  		var loveBeatles = [];
+  		var text = "I love the Beatles!";
+ 		 var i = 0;
+ 		do {
+   			 loveBeatles[i] = "I love the Beatles!";
+   			 i++;
+ 		}
  while (i < 15 - number);
- return loveBeatles;
+ 			return loveBeatles;
 }
 
 
