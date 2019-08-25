@@ -21,9 +21,9 @@ function iLoveTheBeatles(n){
   var nums = [];
   do{
     nums[i] = "I love the Beatles!"
-   
+    i++;
     
   }
-  while(i<n);
+  while(i<=n && n<15);
   return nums
 }
