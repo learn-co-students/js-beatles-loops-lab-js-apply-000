@@ -2,17 +2,34 @@
 function theBeatlesPlay(musicians, instruments) {
   var description = []; 
   
-  for (i = 0; i < musicians.length; i++) {
+  for (var i = 0; i < musicians.length; i++) {
     var string = musicians[i] + " plays " + instruments[i];
     description.push(string);
   }
+  
   return description;
 }
 
-function johnLennonFacts() {
+function johnLennonFacts(facts) {
+  var i = 0;
+  var newFacts = [];
   
+  while(i < facts.length) {
+    newFacts.push(facts[i].concat("!!!"));
+    i++;
+  }
+  
+  return newFacts;
 }
 
-function iLoveTheBeatles() {
+function iLoveTheBeatles(n) {
+  var exclamations=[];
   
+  do {
+    exclamations.push("I love the Beatles!");
+    n++;
+  }
+  while ( n < 15);
+  
+  return exclamations;
 }
