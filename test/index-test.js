@@ -14,7 +14,10 @@ describe('Beatles Loops', function() {
         "He was a choir boy and boy scout",
         "He hated the sound of his own voice"
       ])).toEqual(["He was the last Beatle to learn to drive!!!", "He was never a vegetarian!!!", "He was a choir boy and boy scout!!!", "He hated the sound of his own voice!!!"]);
+<<<<<<< HEAD
       
+=======
+>>>>>>> abd7e658cefbbaf55a1c9510cf385684f6c35db7
       expect(johnLennonFacts([	
         "foo",	
         "bar",	
