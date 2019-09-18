@@ -28,7 +28,7 @@ function johnLennonFacts (facts /*array of strings*/ )  {
     factsEmphasized.push(`${facts[i++]}!!!`); 
   
   }
-  
+ 
   
   // best solution: use iterators!
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/@@iterator#Alternative_iteration
