@@ -1,10 +1,16 @@
-theBeatlesPlay = (musicArr, instrArr) => {
+theBeatlesPlay = (musicians, instruments) => {
+    const arr = []
+    for ( let i = 0; i < musicians.length; i++) {
+        arr.push(`${musicians[i]} plays ${instruments[i]}`)  
+    }
+    return  arr
+}
+
+johnLennonFacts = (facts) => {
     const arr = []
     var i
-    for (i = 0; i < musicArr.length && instrArr.length; i++) {
-        arr.push(`${musicArr[i]} plays ${instrArr[i]}`)
-
-        return  arr
+    while (i < facts.length) {
+        arr.push(`${facts[i]}!!!`)
     }
-
+    return arr
 }
