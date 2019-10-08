@@ -8,9 +8,10 @@ theBeatlesPlay = (musicians, instruments) => {
 
 johnLennonFacts = (facts) => {
     const arr = []
-    var i
+    var i = 0
     while (i < facts.length) {
         arr.push(`${facts[i]}!!!`)
+        i++
     }
     return arr
 }
