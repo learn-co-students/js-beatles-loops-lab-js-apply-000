@@ -6,12 +6,12 @@ theBeatlesPlay = (musicians, instruments) => {
     return  arr
 }
 
-johnLennonFacts = (facts) => {
-    const arr = []
-    var i = 0
+function johnLennonFacts(facts) {
+    const shoutedFacts = []
+    let i = 0
     while (i < facts.length) {
-        arr.push(`${facts[i]}!!!`)
+        shoutedFacts.push(`${facts[i]}!!!`)
         i++
     }
-    return arr
+    return shoutedFacts
 }
