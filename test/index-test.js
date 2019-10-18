@@ -57,3 +57,18 @@ function johnLennonFacts(array) {
   });
 
 });
+
+function iLoveTheBeatles(array) {
+  var newArr = [];
+  
+    i = 0;
+    
+  do {
+      newArr.push('I love the Beatles!');
+      
+    while (i < 15) {
+      i++
+  }
+  }
+  return newArr;
+}
