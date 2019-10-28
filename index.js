@@ -4,13 +4,12 @@ var musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Star
 var instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
 function theBeatlesPlay(musicians, instruments) {
-  let band = []
-  for (let i=0; i<musicians.length; i++) {
+  var band = []
+  for (var i=0; i<musicians.length; i++) {
     band.push(musicians[i] + ' plays ' + instruments[i]);
   }
   return band;
 }
-
 
  const facts = [ 
     "He was the last Beatle to learn to drive",
@@ -19,8 +18,8 @@ function theBeatlesPlay(musicians, instruments) {
     "He hated the sound of his own voice"];
 
 function johnLennonFacts(facts) {
-  let nextFact = [];
-  let i = 0;
+  var nextFact = [];
+  var i = 0;
   while (i<facts.length) {
     nextFact.push(facts[i] + "!!!");
     i++;
@@ -30,7 +29,7 @@ function johnLennonFacts(facts) {
 
 
 var iLoveTheBeatles = function(num) {
-  let heyJude = [];
+  var heyJude = [];
   do {
     heyJude.push("I love the Beatles!");
     num++;
