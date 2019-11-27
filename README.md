@@ -1,3 +1,7 @@
+function theBeatlesPlay(musicians, instruments); {
+  
+}
+
 # Beatles Loops
 
 ## Objectives
