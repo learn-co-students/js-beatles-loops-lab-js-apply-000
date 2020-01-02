@@ -26,13 +26,12 @@ function johnLennonFacts(facts) {
     }
         return yell;
 }
- 
+
 function iLoveTheBeatles(number) {
-  var i = [];
   var love = [];
- do{facts[i]+'I love the Beatles!'}
+  do{ 
+   love.push('I love the Beatles!');
+    number++; }
   while(i < 15);
-  love.push(facts[i]+'I love the Beatles!');
-   i++;
-      return love;
+    return love;
 }
