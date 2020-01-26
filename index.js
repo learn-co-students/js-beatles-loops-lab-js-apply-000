@@ -23,7 +23,7 @@ const iLoveTheBeatles = n => {
     output.push('I love the Beatles!');
     if ( n < 15 ) { n ++ }
     else if ( n > 15 ) { n-- }
-    else if ( n === 17 ) { n = 15 }
+    if ( n === 16 ) { n = 15 }
   } while ( n !== 15 );
   return output;
 };
