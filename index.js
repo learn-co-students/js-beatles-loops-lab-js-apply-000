@@ -3,7 +3,7 @@ const theBeatlesPlay = (musicians,instruments) => {
   const output = [];
   for (let i = 0; i < musicians.length; i++ ) {
     if ( musicians.length !== instruments.length )
-    { console.log('Oh my. George\'s got \'emself up on the ceiling again playing sitar again. Ringo, get me a spatchula.') }
+    { console.log('Oh my. George\'s got \'emself up on the ceiling again playing sitar again. Ringo, get me a spatchula.') } // There werent enough Beatles for the instruments, or there were too many instrumnts and George got distracted.
     output.push(`${musicians[i]} plays ${instruments[i]}`);
   }
   return output;
