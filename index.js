@@ -2,6 +2,8 @@
 const theBeatlesPlay = (musicians,instruments) => {
   const output = [];
   for (let i = 0; i < musicians.length; i++ ) {
+    if ( musicians.length !== instruments.length )
+    { console.log('Oh my. George\'s got \'emself up on the ceiling again playing sitar again. Ringo, get me a spatchula.') }
     output.push(`${musicians[i]} plays ${instruments[i]}`);
   }
   return output;
