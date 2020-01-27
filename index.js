@@ -23,7 +23,7 @@ const iLoveTheBeatles = n => {
   n = Math.round(n); // Should some smarty pants try to give me something other than a whole number and make an infinite loop
   const output = [];
   do {
-    output.push('I love the Beatles!');
+    output.push('I love the Beatles!'); // Push the string once, even if n is already 15
     if ( n < 15 ) { n ++ } // Iterate up to 15
     else if ( n > 15 ) { n-- } // Interate down to 15
     if ( n === 16 ) { n = 15 } // Instructions ambiguious... push string into array per difference between param and 15, except for 17 which only pushes one string? Arbitrary, but if n is 16, reduce it to 15 to solve
