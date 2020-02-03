@@ -16,9 +16,9 @@ describe('theBeatlesPlay', function() {
       ])).toEqual(["He was the last Beatle to learn to drive!!!", "He was never a vegetarian!!!", "He was a choir boy and boy scout!!!", "He hated the sound of his own voice!!!"]);
 
       expect(johnLennonFacts([
-        "foo",
-        "bar",
-      ])).toEqual(["foo!!!", "bar!!!"])
+        "While on tour, he enjoyed playing Monopoly",
+        "Harmonica was the first instrument Lennon learned to play",
+      ])).toEqual(["While on tour, he enjoyed playing Monopoly", "Harmonica was the first instrument Lennon learned to play"])
     });
   });
 
