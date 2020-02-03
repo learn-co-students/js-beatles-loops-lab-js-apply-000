@@ -6,7 +6,7 @@ const path = require('path');
 
 const babelResult = babel.transformFileSync(
   path.resolve(__dirname, '..', 'index.js'), {
-    presets: ['es2015']
+    presets: ['env']
   }
 );
 
