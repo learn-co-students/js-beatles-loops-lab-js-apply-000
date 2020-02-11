@@ -1,10 +1,15 @@
 function theBeatlesPlay(musicians, instruments){
+//creates a function called theBeatlesPlay with two parameters:
+//musician names and instruments they play
   
   const array = [];
+  //declare a constant that is an empty array
   
   for (let i = 0 , m = musicians.length; i < m ; i++){
-    
+  //create an index counter to help iterate through the array
     array.push(`${musicians[i]} plays ${instruments[i]}`);
+    //Using the .push method to add a string which contains the musician
+    //and the instrument they play
   }
   
   return array;
