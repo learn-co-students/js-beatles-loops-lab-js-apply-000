@@ -16,3 +16,22 @@ function johnLennonFacts(arrOfFacts){
     }
     return result;
   }
+
+
+
+function iLoveTheBeatles(num){
+  //create a do while loop that adds 'I love the beatles' to the empy array
+  // increment number
+  let iLuvBeatlesArr = [];
+    do {
+      iLuvBeatlesArr.push('I love the Beatles!');
+      num++
+  }
+  while (num < 15){
+
+    }
+
+    return iLuvBeatlesArr;
+
+
+}
