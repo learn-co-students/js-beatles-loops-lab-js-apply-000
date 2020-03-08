@@ -25,7 +25,7 @@ function iLoveTheBeatles(n){
 do{
   emptythree.push(`I love the Beatles!`);
 n++
-} while(n < 8)
+} while(n < 15)
 return emptythree
 }
 
