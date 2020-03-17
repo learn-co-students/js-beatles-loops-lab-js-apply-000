@@ -19,12 +19,13 @@ function johnLennonFacts(facts) {
   return factsArray;
 }
 
-function iLoveTheBeatles(number){
+function iLoveTheBeatles(number) {
   const emptyArray = [];
  
   do {
     emptyArray.push('I love the Beatles!');
     number++;
   } while (number < 15);
+  
  return emptyArray;
 }
