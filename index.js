@@ -1,1 +1,49 @@
-// add solution here
+var musicians = [];
+var instruments = [];
+
+
+function theBeatlesPlay(name, instru) {
+    musicians.push(name);
+    instruments.push(instru);
+
+    console.log(musicians.length);
+    console.log(instruments.length);
+
+    var i = 0;
+    var j = 0;
+    for (i;i<musicians.length;i++) {
+        for(j;j<instruments.length;j++){
+            console.log(musicians[i] + " plays " + instruments[j]);
+        }
+    }
+
+}
+
+
+function johnLennonFacts() {
+    const facts = [
+        "He was the last Beatle to learn to drive",
+        "He was never a vegetarian",
+        "He was a choir boy and boy scout",
+        "He hated the sound of his own voice"
+      ];
+
+      var i = 0;
+
+      while ( i < facts.length) {
+        console.log(facts[i] + "!");
+        i++;
+      } 
+      
+}
+
+
+function iLoveTheBeatles(number) {
+
+    var i = 0;
+    do  {
+        console.log("I love the Beatles!");
+        i++;
+    }
+    while (i < number);
+}
