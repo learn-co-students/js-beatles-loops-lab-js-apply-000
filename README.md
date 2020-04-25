@@ -24,6 +24,10 @@ Make sure you run the tests with `learn`.
       same sentence for every member of the musicians array. 
     * The function should return the array of new strings containing what
       instruments each musician plays.
+      
+function theBeatlesPlay(musicians, instruments) {
+  
+}
 
 2. Create a function `johnLennonFacts`. 
 
