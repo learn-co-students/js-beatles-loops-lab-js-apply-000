@@ -8,8 +8,6 @@ return beatlesArray;
 }
 theBeatlesPlay()
 
-
-
 // 2 johnLennonFacts
 function johnLennonFacts(facts) {
   let i = 0;
@@ -19,9 +17,7 @@ function johnLennonFacts(facts) {
   }
   return facts;
 }
-
 johnLennonFacts(facts);
-
 
 // 3 iLoveTheBeatles
 function iLoveTheBeatles(i) {
@@ -30,8 +26,6 @@ function iLoveTheBeatles(i) {
     i += 1;
     result.push('I love the Beatles!')
   } while (i < 15);
-
   return result;
 }
-
 iLoveTheBeatles()
