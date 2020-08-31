@@ -24,6 +24,17 @@ Make sure you run the tests with `learn`.
       same sentence for every member of the musicians array. 
     * The function should return the array of new strings containing what
       instruments each musician plays.
+      
+    function theBeatlesPlay(musicians, instruments) {
+      var arr = [];
+      for (var i = 0; i < musicians.length; i++) {
+      for (var j = 0; j < instruments.length; j++) {
+      var string = musicians[i] + " plays " + instruments[j];
+      }
+      arr.push(string);
+      }
+      return arr;
+    }
 
 2. Create a function `johnLennonFacts`. 
 
@@ -43,6 +54,14 @@ Make sure you run the tests with `learn`.
     every fact.
 
     * Return an array of strings with exclamation points.
+    
+    function johnLennonFacts(facts){
+  
+      while(facts > -1) {
+      facts.push('!!!');
+      }
+      return facts;
+    }
 
 3. Create a function `iLoveTheBeatles` which accepts a number as a parameter. 
 
@@ -54,5 +73,24 @@ Make sure you run the tests with `learn`.
       less than `15`. It should contain a number of strings that represents the
       difference between the input number and `15`.
     * Return the array with the strings `"I love the Beatles!"`.
+    
+    function iLoveTheBeatles(num) {
+      var arr = [];
+      do { arr.push("I love the Beatles!")
+        
+      } while (num <= 15);
+      num++
+      return arr; 
+    }
 
+/*let result = '';
+let i = 0;
+
+do {
+  i = i + 1;
+  result = result + i;
+} while (i < 5);
+*/
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/js-beatles-loops-lab' title='Beatles Loops'>Beatles Loops</a> on Learn.co and start learning to code for free.</p>
+
+
